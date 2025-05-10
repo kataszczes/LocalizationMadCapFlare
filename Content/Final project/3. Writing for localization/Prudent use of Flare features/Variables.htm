@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Variables</h1>
+        <h3>What they are:</h3>
+        <p>Variables are placeholders for content that may change over time or between outputs, such as product names, version numbers, or company names.</p>
+        <h3>Best practices for localization:</h3>
+        <ul>
+            <li>
+                <p>Use only for proper nouns, versions, and other non-translatable text: Product names, version numbers and branding should stay consistent and untranslated. Never use them for generic terms like "manual", "website", device".</p>
+            </li>
+            <li>
+                <p>Avoid using variables mid-sentence for translatable words: Translators need full context, and segmented phrases with variables make proper sentence structure and grammar difficult in other languages.</p>
+            </li>
+            <li>
+                <p>Use descriptive naming conventions: Use names like <code>ProductName_Pro</code>, not just <code>Var1</code>, to help translators and other authors understand the content.</p>
+            </li>
+        </ul>
+        <h4>✅ Good example:</h4>
+        <p>“The <code>&lt;Variable&gt;ProductName&lt;/Variable&gt;</code> supports multiple file formats.”</p>
+        <p>Why it's good:</p>
+        <ul>
+            <li>
+                <p>Clear, descriptive name</p>
+            </li>
+            <li>
+                <p>Contains a proper noun that does not depend on the grammatical structure of the sentence.</p>
+            </li>
+        </ul>
+        <h4>❌ Poor example:</h4>
+        <p>“This <code>&lt;Variable&gt;EventType&lt;/Variable&gt;</code> has already ended. You can start a new one.”</p>
+        <ul>
+            <li>
+                <p>where <code>EventType</code> may be "webinar" or "meeting"</p>
+            </li>
+        </ul>
+        <p>Problems:</p>
+        <ul>
+            <li>
+                <p>In some languages, the variable may hold words that have different genders (in Polish, "webinar" in masculine (ten webinar) and "meeting" is neuter (to spotkanie)). This affects the whole sentence:</p>
+                <ul style="list-style-type: circle;">
+                    <li>
+                        <p> "This <code>webinar</code> has already ended. You can start a new one." becomes "Ten webinar już się zakończył. Możesz rozpocząć nowy."</p>
+                    </li>
+                    <li>
+                        <p>"This <code>meeting</code> has already ended. You can start a new one." becomes "To spotkanie już się zakończyło. Możesz rozpocząć nowe."</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p>Tip: In Flare and Lingo, you can flatten the variables and convert them to plain text. This way the translator can adjust the grammatical structure each time.</p>
+    </body>
+</html>

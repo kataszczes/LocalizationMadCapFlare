@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Snippets</h1>
+        <h3>What they are:</h3>
+        <p>Snippets in MadCap Flare are reusable blocks of content that can be inserted into multiple topics. Think of them like building blocks — if you create a chunk of content once (like a warning, a note, or a repeated procedure step), you can reuse it across your documentation by inserting it as a snippet.</p>
+        <p>A snippet behaves like a live reference: when you edit the snippet file, all instances of it update automatically wherever it has been inserted.</p>
+        <h3>Why snippets matter for localization</h3>
+        <p>When preparing content for translation, repetition equals cost. Repeating the same content across files can increase word count, translation time, and the risk of inconsistent translations. Snippets help eliminate that by:</p>
+        <ul>
+            <li>
+                <p>Reducing redundant content that needs to be translated.</p>
+            </li>
+            <li>
+                <p>Ensuring consistent phrasing and structure across all localized outputs.</p>
+            </li>
+            <li>
+                <p>Making updates easier, especially when changes occur late in the documentation cycle.</p>
+            </li>
+        </ul>
+        <p>If a snippet is already translated once, most CAT tools will recognize it and reuse the existing translation, saving time and money.</p>
+        <h3>Best practices for localization:</h3>
+        <ul>
+            <li>
+                <p>Use for modular, repetitive content: Snippets reduce the number of words that require translation and keep content consistent. For example, a standard disclaimer used in 30 topics only needs to be translated once if reused via a snippet.</p>
+            </li>
+            <li>
+                <p>Do not use in partial sentences: Translators do not see the whole sentence, each part is stored separately. Each snippet is its own file in a long list of other files, making it difficult for translators to know its context. Also, the content of the snippet may depend on the part of the sentence that is not snippetized, for example in inflected languages like Polish.</p>
+            </li>
+            <li>
+                <p>Keep snippets self-contained: Avoid including full paragraphs or context-dependent content. Snippets should not depend on external content to be understood in translation.</p>
+            </li>
+            <li>
+                <p>Avoid excessive nesting: Deeply nested snippets (snippets inside snippets) complicate both authoring and translation workflows. Limit to one level where possible.</p>
+            </li>
+        </ul>
+        <h4>✅ Good example:</h4>
+        <p><code>&lt;Snippet&gt;Note: This feature is only available in the Pro version.&lt;/Snippet&gt;</code>
+        </p>
+        <p>Why it’s good:</p>
+        <ul>
+            <li>
+                <p>Reusable, clear, and context-independent.</p>
+            </li>
+            <li>
+                <p>Easy to localize once and reuse globally.</p>
+            </li>
+            <li>
+                <p>No embedded formatting or conditions.</p>
+            </li>
+        </ul>
+        <h4>❌ Poor example:</h4>
+        <p><code>&lt;Snippet&gt;The error occurs if &lt;/Snippet&gt; &lt;Variable&gt;[data element]&lt;/Variable&gt; &lt;Snippet&gt; is populated, but source is empty or null.&lt;/Snippet&gt;</code>
+        </p>
+        <p>Problems:</p>
+        <ul>
+            <li>
+                <p>The translator sees both snippets as separate files. They probably appear in a way that the translator cannot recognize that they belong together.</p>
+            </li>
+            <li>
+                <p>In some languages the grammatical structure of the order of the snippets may need to change.</p>
+            </li>
+        </ul>
+        <p>Tip: In Flare and Lingo, you can flatten the snippets and convert them to plain text. This way the translator sees the full contexts and can adjust the grammatical structure each time.</p>
+    </body>
+</html>

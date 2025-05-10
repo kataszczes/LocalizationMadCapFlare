@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Avoid hardcoded dimensions</h1>
+        <p>Hardcoding image dimensions can lead to display issues across different devices and languages. Fixed sizes may not accommodate text expansion or varying screen resolutions, resulting in distorted or truncated images.</p>
+        <h4>Best practices:</h4>
+        <ul>
+            <li>
+                <p>Use relative sizing: Define image sizes using relative units (for example, percentages) instead of fixed pixels. This approach ensures images scale appropriately across different devices and layouts.</p>
+            </li>
+            <li>
+                <p>Implement responsive design: Design images and layouts that adapt to various screen sizes and orientations, enhancing accessibility and user experience.</p>
+            </li>
+            <li>
+                <p>Test across outputs: Preview images in different output formats (HTML5, PDF) to ensure consistent appearance and functionality.</p>
+            </li>
+        </ul>
+        <p>Example:</p>
+        <p>❌ Poor practice: An image set to a fixed width of 600 pixels may not display correctly on smaller screens or accommodate longer translated text.</p>
+        <p>✅ Improved practice: An image set to occupy 100% of the container width, allowing it to scale appropriately based on the viewing device.</p>
+    </body>
+</html>

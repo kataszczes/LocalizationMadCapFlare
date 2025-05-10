@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Hyperlinks vs. cross-references</h1>
+        <h3>What they are:</h3>
+        <ul>
+            <li>
+                <p>Hyperlinks: Direct links to other topics or websites.</p>
+            </li>
+            <li>
+                <p>Cross-references (Xrefs): Dynamic links that include text from the target (like heading or title), and update automatically when the target changes.</p>
+            </li>
+        </ul>
+        <h3>Why it matters for localization</h3>
+        <p>In multilingual projects, cross-references are usually preferable because they:</p>
+        <ul>
+            <li>
+                <p>Adapt to translated headings: Since xrefs pull the title from the target topic, the link text will automatically match the translated heading in the output.</p>
+            </li>
+            <li>
+                <p>Reduce rework: If the title of a linked topic changes, you don’t need to update every link manually.</p>
+            </li>
+            <li>
+                <p>Minimize translation errors: Hyperlinks with custom link text can become outdated, mismatched, or inconsistent if not tracked carefully.</p>
+            </li>
+        </ul>
+        <h3>Best practices for localization:</h3>
+        <ul>
+            <li>
+                <p>Use cross-references when linking to internal content: Always prefer cross-references when pointing to another topic or heading within the same project. This ensures the link remains valid even if the file name or heading changes, and the text will match the localized version.</p>
+            </li>
+            <li>
+                <p>Avoid hardcoded text in hyperlinks: If you must use a hyperlink, avoid writing the link text manually. Instead, ensure it's clear and generic, or mark it for special attention in the translation process.</p>
+            </li>
+            <li>
+                <p>Don’t mix xrefs and hyperlinks inconsistently: Choose one method per context. For example, if you’re consistently referencing other procedures or sections in a guide, stick with cross-references throughout to maintain a uniform structure.</p>
+            </li>
+        </ul>
+        <h4>✅ Good example:</h4>
+        <p>"For more information, see &lt;xref href="installing.md"/&gt;."</p>
+        <h4>❌ Poor example:</h4>
+        <p>"For more information, click <ins>here</ins>."</p>
+        <p>The word "here" is not meaningful out of context and should be avoided in all documentation, especially translated content.</p>
+        <h3>When hyperlinks are appropriate</h3>
+        <p>There are some valid use cases for hyperlinks:</p>
+        <ul>
+            <li>
+                <p>Linking to external websites or external documents</p>
+            </li>
+            <li>
+                <p>Email links (<code>mailto:</code>)</p>
+            </li>
+            <li>
+                <p>URLs that will never change and don’t require translation</p>
+            </li>
+        </ul>
+        <p>In such cases, it’s helpful to:</p>
+        <ul>
+            <li>
+                <p>Use variables for external URLs to centralize updates</p>
+            </li>
+            <li>
+                <p>Use a consistent format for all such links</p>
+            </li>
+        </ul>
+    </body>
+</html>

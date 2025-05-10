@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Tags placement</h1>
+        <h3>What it refers to:</h3>
+        <p>How and where you place conditions, variables, or snippets within text can drastically affect translatability.</p>
+        <h3>Best practices for localization:</h3>
+        <ul>
+            <li>
+                <p>Apply tags at logical break points: Apply condition tags to entire paragraphs or block elements instead of splitting sentences. Inline tagging fragments the content and disrupts translation memory systems.</p>
+            </li>
+            <li>
+                <p>Avoid tagging fragments of a sentence: Most translation tools work at the sentence level. If you apply condition tags to individual words, they may appear out of context to translators.</p>
+            </li>
+            <li>
+                <p>Keep code clean: Avoid applying multiple types of tags (for example, snippet + variable + condition) within a short segment of text.</p>
+            </li>
+        </ul>
+        <h4>✅ Good example:</h4>
+        <p><code>&lt;p MadCap:conditions="Product_Pro"&gt;This feature is available in the Pro version only.&lt;/p&gt;</code>
+        </p>
+        <p>Why it's good:</p>
+        <ul>
+            <li>
+                <p>Descriptive and precise name</p>
+            </li>
+            <li>
+                <p>Applied to a single sentence for clarity</p>
+            </li>
+            <li>
+                <p>No overlapping or compound conditions</p>
+            </li>
+        </ul>
+        <h4>❌ Poor example:</h4>
+        <p><code>&lt;p&gt;This feature is &lt;span MadCap:conditions="Product_Pro"&gt;available&lt;/span&gt; in the &lt;Variable&gt;ProductEdition&lt;/Variable&gt;.&lt;/p&gt;</code>
+        </p>
+        <p>Confusing to translate and maintain.</p>
+    </body>
+</html>
