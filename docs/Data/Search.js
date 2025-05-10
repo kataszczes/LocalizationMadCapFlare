@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A_Getting Started/Basic Steps.htm'],s:['+','like','vocibus'],p:[['+',19],['complete',17],['final',17],['lets',23],['phrasing',2],['still',6],['variable',6]]});

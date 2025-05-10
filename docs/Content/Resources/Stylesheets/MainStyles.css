@@ -1,0 +1,121 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	font-family: Arial, Avenir, Myriad;
+	color: #404040;
+	line-height: 1.6em;
+}
+
+h1
+{
+	line-height: 1em;
+	font-size: 2.5em;
+	font-weight: 500;
+}
+
+h2
+{
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+h3
+{
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+h4
+{
+	font-weight: bold;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ol,
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+	color: #006600;
+}
+
+.body-container
+{
+	padding-top: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+/*== Other topics header bar styles ==*/
+
+.title-bar-container
+{
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	/*adds the shadow effect to the header*/
+}
+
+/*== madcap proxy assigned styles ==*/
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: #888888;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	.body-container
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
