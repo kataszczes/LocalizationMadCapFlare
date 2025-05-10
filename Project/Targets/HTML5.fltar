@@ -10,12 +10,19 @@
   DefaultUrl="/Content/Home.htm"
   MasterToc="/Project/TOCs/Master.fltoc"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
-  TargetLanguage="en"
-  OutputFile="index.html">
+  TargetLanguage="en-us,pl_../../../My Translated Projects/NEW_pl/NEW.flprj"
+  OutputFile="index.html"
+  TopicToolbarSkin="/Project/Skins/Toolbar.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
     GenerateGlossaryProxy="true"
     OutputFormat="doc" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Git.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
 </CatapultTarget>

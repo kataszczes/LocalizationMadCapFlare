@@ -6,8 +6,8 @@
         <meta name="author" content="" /><title></title>
     </head>
     <body>
-        <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/Toolbar.flskn" />
         <div class="home-container">
+            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/Toolbar.flskn" />
             <MadCap:bodyProxy />
         </div>
         <div class="home-footer">
