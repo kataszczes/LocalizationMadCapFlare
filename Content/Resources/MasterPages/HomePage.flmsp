@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="home-container">
-            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/Toolbar.flskn" />
+            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolbar.flskn" />
             <MadCap:bodyProxy />
         </div>
         <div class="home-footer">

@@ -5,9 +5,55 @@
   Comment="HTML5 Toolbar skin"
   ComponentType="TopicToolbar"
   EnableResponsiveOutput="True">
-  <Stylesheet />
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="SelectLanguage">
+            <Properties>
+              <Property
+                Name="ButtonOrder">row</Property>
+              <Property
+                Name="PaddingRight">0em</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="Float">right</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
   <TopicToolbar
     EnableCustomLayout="true"
-    Buttons="SelectLanguage" />
-  <Strings />
+    Buttons="Print|Separator|SelectLanguage" />
+  <Strings>
+    <Stylesheet
+      lang="pl">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="ToolbarItem">
+            <Classes>
+              <StyleClass
+                Name="SelectLanguage">
+                <Properties>
+                  <Property
+                    Name="AltText">Zmień język</Property>
+                  <Property
+                    Name="Tooltip">Zmień język</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
 </CatapultSkin>

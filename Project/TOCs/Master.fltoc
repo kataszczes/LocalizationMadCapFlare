@@ -119,12 +119,6 @@
     Link="/Content/Final project/5. Generate projects for translation/Generate projects for translatioin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Final project/5. Generate projects for translation/Exporting Flare Project.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Final project/5. Generate projects for translation/Creating Lingo Project.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
       Link="/Content/Final project/5. Generate projects for translation/Exporting output files.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"

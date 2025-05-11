@@ -58,5 +58,27 @@
   <TopicToolbar
     EnableCustomLayout="true"
     Buttons="PreviousTopic|NextTopic|Separator|Print|ExpandAll|Separator|SelectLanguage" />
-  <Strings />
+  <Strings>
+    <Stylesheet
+      lang="pl">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="ToolbarItem">
+            <Classes>
+              <StyleClass
+                Name="SelectLanguage">
+                <Properties>
+                  <Property
+                    Name="Tooltip">Zmień język</Property>
+                  <Property
+                    Name="AltText">Zmień język</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
 </CatapultSkin>

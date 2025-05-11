@@ -108,6 +108,11 @@ MadCap|breadcrumbsProxy
 	color: #888888;
 }
 
+MadCap|topicToolbarProxy
+{
+	
+}
+
 @media tablet
 {
 	.body-container
