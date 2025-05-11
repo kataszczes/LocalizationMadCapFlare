@@ -4,21 +4,20 @@
     </head>
     <body>
         <h1>Avoid embedded text</h1>
-        <p>Embedding text directly into images (for example, using graphic design tools to place text within screenshots) renders the text inaccessible to translation tools. This practice necessitates manual extraction and re-embedding of translated text, increasing the risk of errors and inconsistencies.</p>
-        <h4>Best practices:</h4>
+        <p>Embedding text directly into images (for example, using graphic design tools to place text within screenshots) renders the text inaccessible to translation tools. This practice requires manual extraction and re-embedding of translated text, increasing the risk of errors and inconsistencies.</p>
+        <h2>Best practices:</h2>
         <ul>
             <li>
-                <p>Use callouts and captions: Instead of embedding text, utilize callouts or captions that are separate from the image. MadCap Capture allows for the creation of callouts that are stored in an accompanying XML-based <code>.props</code> file, facilitating easy translation without altering the image itself.</p>
+                <p><span class="bulletIntroduction">Use callouts and captions:</span> Instead of embedding text, utilize callouts or captions that are separate from the image. MadCap Capture allows for the creation of callouts that are stored in an accompanying XML-based <code>.props</code> file, facilitating easy translation without altering the image itself.</p>
             </li>
             <li>
-                <p>Leverage vector graphics: When possible, use vector graphics for illustrations. Vector formats enable the separation of text from images, allowing for straightforward text updates without modifying the graphic.</p>
+                <p><span class="bulletIntroduction">Leverage vector graphics:</span> When possible, use vector graphics for illustrations. Vector formats enable the separation of text from images, allowing for straightforward text updates without modifying the graphic.</p>
             </li>
             <li>
-                <p>Maintain text in source files: Keep all textual content within the source files of your documentation project. This approach ensures that translation memory systems can access and process the text efficiently.</p>
+                <p><span class="bulletIntroduction">Maintain text in source files:</span> Keep all textual content within the source files of your documentation project. This approach ensures that translation memory systems can access and process the text efficiently.</p>
             </li>
         </ul>
-        <p>Example:</p>
-        <p>❌ Poor practice: A screenshot with embedded English text like "Click here to start" requires creating a new image for each language.</p>
-        <p>✅ Improved practice: A screenshot without text, accompanied by a caption or callout in the documentation that reads "Click the 'Start' button."</p>
+        <div class="descriptiveExample">Example:
+        <div class="badDescriptiveExample">❌ Poor practice: A screenshot with embedded English text like "Click here to start" requires creating a new image for each language.</div><div class="goodDescriptiveExample">✅ Improved practice: A screenshot without text, accompanied by a caption or callout in the documentation that reads "Click the 'Start' button."</div></div>
     </body>
 </html>

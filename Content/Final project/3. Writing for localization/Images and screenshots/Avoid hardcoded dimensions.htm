@@ -5,20 +5,19 @@
     <body>
         <h1>Avoid hardcoded dimensions</h1>
         <p>Hardcoding image dimensions can lead to display issues across different devices and languages. Fixed sizes may not accommodate text expansion or varying screen resolutions, resulting in distorted or truncated images.</p>
-        <h4>Best practices:</h4>
+        <h2>Best practices:</h2>
         <ul>
             <li>
-                <p>Use relative sizing: Define image sizes using relative units (for example, percentages) instead of fixed pixels. This approach ensures images scale appropriately across different devices and layouts.</p>
+                <p><span class="bulletIntroduction">Use relative sizing:</span> Define image sizes using relative units (for example, percentages) instead of fixed pixels. This approach ensures images scale appropriately across different devices and layouts.</p>
             </li>
             <li>
-                <p>Implement responsive design: Design images and layouts that adapt to various screen sizes and orientations, enhancing accessibility and user experience.</p>
+                <p><span class="bulletIntroduction">Implement responsive design:</span> Design images and layouts that adapt to various screen sizes and orientations, enhancing accessibility and user experience.</p>
             </li>
             <li>
-                <p>Test across outputs: Preview images in different output formats (HTML5, PDF) to ensure consistent appearance and functionality.</p>
+                <p><span class="bulletIntroduction">Test across outputs:</span> Preview images in different output formats (HTML5, PDF) to ensure consistent appearance and functionality.</p>
             </li>
         </ul>
-        <p>Example:</p>
-        <p>❌ Poor practice: An image set to a fixed width of 600 pixels may not display correctly on smaller screens or accommodate longer translated text.</p>
-        <p>✅ Improved practice: An image set to occupy 100% of the container width, allowing it to scale appropriately based on the viewing device.</p>
+        <div class="descriptiveExample">Example:
+        <div class="badDescriptiveExample">❌ Poor practice: An image set to a fixed width of 600 pixels may not display correctly on smaller screens or accommodate longer translated text.</div><div class="goodDescriptiveExample">✅ Improved practice: An image set to occupy 100% of the container width, allowing it to scale appropriately based on the viewing device.</div></div>
     </body>
 </html>

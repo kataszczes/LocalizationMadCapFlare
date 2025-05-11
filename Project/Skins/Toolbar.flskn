@@ -40,6 +40,8 @@
         <Properties>
           <Property
             Name="Float">right</Property>
+          <Property
+            Name="MarginRight">2em</Property>
         </Properties>
       </Style>
       <Medium

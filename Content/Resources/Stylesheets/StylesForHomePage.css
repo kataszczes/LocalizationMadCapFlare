@@ -1,4 +1,4 @@
-﻿/*<meta />*/
+/*<meta />*/
 
 /*===========================================================================================================================================================
 
@@ -41,21 +41,22 @@ p
 
 .title-bar-container
 {
-	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 	/*creates the shadow effect in the header*/
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	/*creates the shadow effect in the header*/
 }
 
 /*== home page masterpage styles ==*/
 
-div.home-container /*wraps the content on the home page*/
+div.home-container	/*wraps the content on the home page*/
 {
+	width: 60%;
 	margin-left: 20%;
-	width: 80%;
 }
 
-.body-container	
+.body-container
 {
-	padding: 0; /*Overrides padding set in the skin*/
-	
+	padding: 0;
+	/*Overrides padding set in the skin*/
 }
 
 /*== Home Page Topic Hero section ==*/
@@ -98,7 +99,6 @@ div.search-home
 
 /*== Home-tiles section ==*/
 
-
 div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
 {
 	mc-grid-row: true;
@@ -130,7 +130,6 @@ div.home-tiles > div
 	box-sizing: border-box;
 }
 
-
 div.home-tiles > div:nth-child(1)
 {
 	width: 33%;
@@ -159,7 +158,6 @@ p.tile-title
 	font-size: 1.3em;
 	font-weight: bold;
 }
-
 
 p.tile-content
 {
@@ -247,11 +245,10 @@ Styles after this point are styles that are for specific mediums. If any additio
 		width: 90%;
 	}
 
-		div.footer
+	div.footer
 	{
 		padding-top: 10px;
 	}
-
 }
 
 @media mobile
@@ -281,8 +278,8 @@ Styles after this point are styles that are for specific mediums. If any additio
 		width: 100%;
 		margin-left: 0;
 	}
-	
-		div.search-home
+
+	div.search-home
 	{
 		width: 80%;
 		margin-left: 10%;
@@ -298,7 +295,6 @@ Styles after this point are styles that are for specific mediums. If any additio
 		padding: 5%;
 		margin-top: 2%;
 	}
-
 
 	div.home-tiles > div:nth-child(1)
 	{
@@ -336,3 +332,4 @@ Styles after this point are styles that are for specific mediums. If any additio
 		margin-left: 0%;
 	}
 }
+
