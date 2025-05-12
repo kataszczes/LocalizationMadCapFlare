@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultVariableSet>
-	<Variable Comment="" Name="CompanyName">MadCap Software</Variable>
-	<Variable Comment="" Name="PhoneNumber">858 123 4567</Variable>	
+  <Variable
+    Comment=""
+    Name="CompanyName">MadCap Software</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">858 123 4567</Variable>
+  <Variable
+    Name="Flare"
+    Comment=""
+    EvaluatedDefinition="MadCap Flare">MadCap Flare</Variable>
+  <Variable
+    Name="Lingo"
+    Comment=""
+    EvaluatedDefinition="MadCap Lingo">MadCap Lingo</Variable>
+  <Variable
+    Name="Capture"
+    Comment=""
+    EvaluatedDefinition="MadCap Capture">MadCap Capture</Variable>
 </CatapultVariableSet>

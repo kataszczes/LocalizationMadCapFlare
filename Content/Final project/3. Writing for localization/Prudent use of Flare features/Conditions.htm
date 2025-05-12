@@ -4,8 +4,8 @@
     </head>
     <body>
         <h1>Conditions</h1>
-        <h3>What they are:</h3>
-        <p>Conditions in MadCap Flare are a content filtering mechanism that let you create multiple variations of your documentation from a single source. You apply condition tags to topics, paragraphs, or images to include or exclude content depending on the output target — for example, by language, audience, product version, or region.</p>
+        <h2>What they are:</h2>
+        <p>Conditions in <MadCap:variable name="Variables.Flare" /> are a content filtering mechanism that let you create multiple variations of your documentation from a single source. You apply condition tags to topics, paragraphs, or images to include or exclude content depending on the output target—for example, by language, audience, product version, or region.</p>
         <p>This is essential for single-sourcing and supports scenarios such as:</p>
         <ul>
             <li>
@@ -19,10 +19,10 @@
             </li>
         </ul>
         <p>However, while conditions are helpful, they must be carefully managed when preparing content for localization.</p>
-        <h3>Best practices for localization:</h3>
-        <p>1. Limit the number of condition sets</p>
+        <h2>Best practices for localization:</h2>
+        <p>1. <span class="bulletIntroduction">Limit the number of condition sets</span></p>
         <p>Having too many condition tags or complex conditional logic can significantly complicate translation. Translators may receive content without knowing which combination of conditions will be visible together, increasing the risk of confusion or inconsistency.</p>
-        <p>2. Use clear, meaningful names</p>
+        <p>2. <span class="bulletIntroduction">Use clear, meaningful names</span></p>
         <p>Avoid generic or cryptic names like <code>Cond1</code>, <code>Tag2</code>, or <code>OldNew</code>. Instead, use consistent, descriptive naming such as:</p>
         <ul>
             <li>
@@ -43,9 +43,9 @@
             </li>
         </ul>
         <p>This improves project maintainability and helps translators and reviewers better understand the context.</p>
-        <p>3. Avoid overlapping conditions on the same content block</p>
-        <p>Overlapping multiple condition tags on the same paragraph or sentence — especially when they are poorly documented — can lead to unpredictable output combinations and mistranslations. Instead, write out complete sentences of paragraphs and assign them the required conditions.</p>
-        <p>4. Document condition usage thoroughly</p>
+        <p>3. <span class="bulletIntroduction">Avoid overlapping conditions on the same content block</span></p>
+        <p>Overlapping multiple condition tags on the same paragraph or sentence—especially when they are poorly documented—can lead to unpredictable output combinations and mistranslations. Instead, write out complete sentences of paragraphs and assign them the required conditions.</p>
+        <p>4. <span class="bulletIntroduction">Document condition usage thoroughly</span></p>
         <p>Create a conditions map or guide that explains:</p>
         <ul>
             <li>
@@ -59,31 +59,9 @@
             </li>
         </ul>
         <p>This is especially helpful for translation vendors working outside your authoring environment.</p>
-        <h4>✅ Good example:</h4>
-        <p><code>&lt;p MadCap:conditions="Audience_Admin"&gt;Only administrators can access the system settings via the Configuration panel.&lt;/p&gt;</code>
-        </p>
-        <p><code>&lt;p MadCap:conditions="Audience_EndUser"&gt;You can change your personal preferences in the Settings menu.&lt;/p&gt;</code>
-        </p>
-        <p>Why it's good:</p>
-        <ul>
-            <li>
-                <p>Conditions are applied at the paragraph level, keeping content separate and clear.</p>
-            </li>
-            <li>
-                <p>The tags are descriptive and self-explanatory (Audience_Admin, Audience_EndUser), so there's no ambiguity.</p>
-            </li>
-            <li>
-                <p>Translators can easily tell which content is intended for which user group, and you can generate audience-specific outputs without confusion.</p>
-            </li>
-        </ul>
-        <h4>❌ Poor example:</h4>
-        <p><code>&lt;p MadCap:conditions="UserType_Adv, Product_Old"&gt;This advanced feature is only present in the old version.&lt;/p&gt;</code>
-        </p>
-        <p>Problems:</p>
-        <ul>
-            <li>
-                <p>Multiple condition tags are stacked without clarity. It’s unclear what the final output will include. If there's no documentation, a translator may not know which variant will be used or whether to translate both.</p>
-            </li>
-        </ul>
+        <div class="goodDescriptiveExample">✅ Good example:
+        <div class="example"><code>&lt;p MadCap:conditions="Audience_Admin"&gt;Only administrators can access the system settings via the Configuration panel.&lt;/p&gt;</code></div><div class="example"><code>&lt;p MadCap:conditions="Audience_EndUser"&gt;You can change your personal preferences in the Settings menu.&lt;/p&gt;</code></div><p>Why it's good:</p><ul><li><p>Conditions are applied at the paragraph level, keeping content separate and clear.</p></li><li><p>The tags are descriptive and self-explanatory (<code>Audience_Admin</code>, <code>Audience_EndUser</code>), so there's no ambiguity.</p></li><li><p>Translators can easily tell which content is intended for which user group, and you can generate audience-specific outputs without confusion.</p></li></ul></div>
+        <div class="badDescriptiveExample">❌ Poor example:
+        <div class="example"><code>&lt;p MadCap:conditions="UserType_Adv, Product_Old"&gt;This advanced feature is only present in the old version.&lt;/p&gt;</code></div><p>Problems:</p><ul><li><p>Multiple condition tags are stacked without clarity. It’s unclear what the final output will include. If there's no documentation, a translator may not know which variant will be used or whether to translate both.</p></li></ul><div class="translatorPOV">Transalator's POV [here will be an example of how the translator views conditions in Lingo and other CAT tools]</div></div>
     </body>
 </html>

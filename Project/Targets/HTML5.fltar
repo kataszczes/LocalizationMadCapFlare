@@ -10,7 +10,7 @@
   DefaultUrl="/Content/Home.htm"
   MasterToc="/Project/TOCs/Master.fltoc"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
-  TargetLanguage="en,pl_../../../My Translated Projects/NEW_pl/NEW.flprj"
+  TargetLanguage="en"
   OutputFile="index.html"
   TopicToolbarSkin="/Project/Skins/Toolbar.flskn">
   <PrintedOutput
