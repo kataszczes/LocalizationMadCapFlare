@@ -13,6 +13,7 @@ h1
 	font-size: 2.5rem;
 	color: #6C7A89;
 	font-weight: 700;
+	mc-heading-level: 2;
 }
 
 h2
@@ -20,6 +21,7 @@ h2
 	font-size: 1.75rem;
 	font-weight: 600;
 	color: #6C7A89;
+	mc-heading-level: 3;
 }
 
 h3
@@ -27,8 +29,8 @@ h3
 	color: #6C7A89;
 	font-size: 1.5rem;
 	font-weight: 600;
-	mc-heading-level: 0;
 	mc-hyphenate: never;
+	mc-heading-level: 0;
 }
 
 h4
@@ -36,12 +38,14 @@ h4
 	color: #6C7A89;
 	font-size: 1.25rem;
 	font-weight: 600;
+	mc-heading-level: 0;
 }
 
 h5
 {
 	font-weight: bold;
 	font-size: 10.0pt;
+	mc-heading-level: 0;
 }
 
 h6
@@ -168,6 +172,12 @@ code
 MadCap|variable
 {
 	
+}
+
+MadCap|tocProxy
+{
+	margin-top: ;
+	line-height: 0.5rem;
 }
 
 @media tablet
@@ -334,5 +344,22 @@ h1.h1TitlePage
 	font-weight: 700;
 	margin-top: 5rem;
 	mc-hyphenate: never;
+	mc-heading-level: 0;
+}
+
+h1.h1ChapterTitle
+{
+	font-size: 2.5rem;
+	color: #6C7A89;
+	font-weight: 700;
+	mc-heading-level: 1;
+}
+
+h1.h1-mcThirdLevel
+{
+	font-size: 2.5rem;
+	color: #6C7A89;
+	font-weight: 700;
+	mc-heading-level: 3;
 }
 
