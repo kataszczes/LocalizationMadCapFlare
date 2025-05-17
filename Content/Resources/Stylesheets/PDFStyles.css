@@ -357,9 +357,9 @@ h1.h1ChapterTitle
 
 h1.h1-mcThirdLevel
 {
-	font-size: 2.5rem;
 	color: #6C7A89;
-	font-weight: 700;
 	mc-heading-level: 3;
+	font-size: 1.8rem;
+	font-weight: 700;
 }
 
