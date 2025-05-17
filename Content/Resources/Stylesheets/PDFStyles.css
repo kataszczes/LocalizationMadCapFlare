@@ -363,3 +363,9 @@ h1.h1-mcThirdLevel
 	font-weight: 700;
 }
 
+div.chapterBar
+{
+	border-left: solid 10px #a3c6c4;
+	padding-left: 0.8rem;
+}
+
