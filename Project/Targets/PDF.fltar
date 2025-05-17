@@ -5,9 +5,9 @@
   Type="PDF"
   Destinations=""
   ShowMadCapBacklink="true"
-  GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/PDF.fltoc"
-  MasterPageLayout="/Content/Resources/PageLayouts/PDF-layout.flpgl">
+  MasterPageLayout="/Content/Resources/PageLayouts/PDF-layout.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/PDFStyles.css">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -17,4 +17,5 @@
   <PDF
     Tagged="true"
     TitleBar="DocumentTitle" />
+  <Glossaries />
 </CatapultTarget>

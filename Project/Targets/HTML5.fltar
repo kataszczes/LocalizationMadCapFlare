@@ -25,4 +25,5 @@
       Publish="true"
       IsResource="false" />
   </Destinations>
+  <Glossaries />
 </CatapultTarget>

@@ -5,7 +5,7 @@ body
 	line-height: 1.6em;
 	color: #354649;
 	font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 16px;
+	font-size: 12px;
 }
 
 h1
@@ -27,6 +27,8 @@ h3
 	color: #6C7A89;
 	font-size: 1.5rem;
 	font-weight: 600;
+	mc-heading-level: 0;
+	mc-hyphenate: never;
 }
 
 h4
@@ -331,5 +333,6 @@ h1.h1TitlePage
 	color: #6C7A89;
 	font-weight: 700;
 	margin-top: 5rem;
+	mc-hyphenate: never;
 }
 
