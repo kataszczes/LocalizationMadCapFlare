@@ -20,31 +20,33 @@
           <Property
             Name="BackgroundColor">#ffffff</Property>
           <Property
-            Name="PaddingTop">25px</Property>
+            Name="Display">block</Property>
           <Property
-            Name="PaddingBottom">25px</Property>
+            Name="BackgroundGradient">vertical transparent #E0E7E9</Property>
           <Property
             Name="MaxWidth">100%</Property>
+          <Property
+            Name="PaddingTop">1em</Property>
+          <Property
+            Name="PaddingBottom">1em</Property>
         </Properties>
       </Style>
       <Style
         Name="Side Navigation Menu">
         <Properties>
           <Property
-            Name="BackgroundColor">#f1f1f1</Property>
-          <Property
             Name="Width">25%</Property>
           <Property
             Name="PaddingLeft">30px</Property>
           <Property
             Name="PaddingRight">30px</Property>
+          <Property
+            Name="BackgroundColor">#E0E7E9</Property>
         </Properties>
       </Style>
       <Style
         Name="Side Navigation Menu Item">
         <Properties>
-          <Property
-            Name="Color">#000000</Property>
           <Property
             Name="PaddingLeft">0.67rem</Property>
           <Property
@@ -55,13 +57,17 @@
             Name="MarginRight">15px</Property>
           <Property
             Name="BorderBottom">solid 1px #d3d3d3</Property>
+          <Property
+            Name="Color">#354649</Property>
+          <Property
+            Name="FontFamily">Segoe UI</Property>
         </Properties>
         <Classes>
           <StyleClass
             Name="Expander Icon">
             <Properties>
               <Property
-                Name="ExpanderBorderColor">#5a4fc1</Property>
+                Name="ExpanderBorderColor">#7AA8A4</Property>
             </Properties>
           </StyleClass>
         </Classes>
@@ -72,14 +78,25 @@
           <Property
             Name="BackgroundColor">transparent</Property>
         </Properties>
+        <Classes>
+          <StyleClass
+            Name="Expander Icon">
+            <Properties>
+              <Property
+                Name="ExpanderBorderColor">#7AA8A4</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
       </Style>
       <Style
         Name="Side Navigation Menu Item (selected)">
         <Properties>
           <Property
-            Name="Color">#5a4fc1</Property>
-          <Property
             Name="BorderBottom">none 0px #d3d3d3</Property>
+          <Property
+            Name="Color">#354649</Property>
+          <Property
+            Name="FontWeight">bold</Property>
         </Properties>
         <Classes>
           <StyleClass
@@ -102,7 +119,9 @@
         Name="Logo">
         <Properties>
           <Property
-            Name="BackgroundImage">url('logo-purple.png')</Property>
+            Name="BackgroundImage">none</Property>
+          <Property
+            Name="Order">1</Property>
         </Properties>
       </Style>
       <Style
@@ -128,6 +147,8 @@
             Name="Width">65%</Property>
           <Property
             Name="MarginRight">30px</Property>
+          <Property
+            Name="Order">3</Property>
         </Properties>
       </Style>
       <Style
@@ -195,6 +216,22 @@
             Name="BackgroundRepeat">no-repeat</Property>
         </Properties>
       </Style>
+      <Style
+        Name="Main Page">
+        <Properties>
+          <Property
+            Name="PaddingLeft">0em</Property>
+          <Property
+            Name="PaddingRight">0em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu">
+        <Properties>
+          <Property
+            Name="Order">2</Property>
+        </Properties>
+      </Style>
     </Styles>
     <Resources>
       <Resource
@@ -223,5 +260,6 @@
     </Stylesheet>
   </Strings>
   <MicroContentOptions
-    KnowledgePanelViewMode="PlainText" />
+    KnowledgePanelViewMode="Truncated"
+    FeaturedSnippetsViewMode="Truncated" />
 </CatapultSkin>

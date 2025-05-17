@@ -59,9 +59,36 @@
             </li>
         </ul>
         <p>This is especially helpful for translation vendors working outside your authoring environment.</p>
-        <div class="goodDescriptiveExample">✅ Good example:
-        <div class="example"><code>&lt;p MadCap:conditions="Audience_Admin"&gt;Only administrators can access the system settings via the Configuration panel.&lt;/p&gt;</code></div><div class="example"><code>&lt;p MadCap:conditions="Audience_EndUser"&gt;You can change your personal preferences in the Settings menu.&lt;/p&gt;</code></div><p>Why it's good:</p><ul><li><p>Conditions are applied at the paragraph level, keeping content separate and clear.</p></li><li><p>The tags are descriptive and self-explanatory (<code>Audience_Admin</code>, <code>Audience_EndUser</code>), so there's no ambiguity.</p></li><li><p>Translators can easily tell which content is intended for which user group, and you can generate audience-specific outputs without confusion.</p></li></ul></div>
-        <div class="badDescriptiveExample">❌ Poor example:
-        <div class="example"><code>&lt;p MadCap:conditions="UserType_Adv, Product_Old"&gt;This advanced feature is only present in the old version.&lt;/p&gt;</code></div><p>Problems:</p><ul><li><p>Multiple condition tags are stacked without clarity. It’s unclear what the final output will include. If there's no documentation, a translator may not know which variant will be used or whether to translate both.</p></li></ul><div class="translatorPOV">Transalator's POV [here will be an example of how the translator views conditions in Lingo and other CAT tools]</div></div>
+        <div class="do" MadCap:autonum="✔️"> Good example:</div>
+        <div class="descriptiveExample">
+            <div class="example"><code>&lt;p MadCap:conditions="Audience_Admin"&gt;Only administrators can access the system settings via the Configuration panel.&lt;/p&gt;</code>
+            </div>
+            <div class="example"><code>&lt;p MadCap:conditions="Audience_EndUser"&gt;You can change your personal preferences in the Settings menu.&lt;/p&gt;</code>
+            </div>
+            <p>Why it's good:</p>
+            <ul>
+                <li>
+                    <p>Conditions are applied at the paragraph level, keeping content separate and clear.</p>
+                </li>
+                <li>
+                    <p>The tags are descriptive and self-explanatory (<code>Audience_Admin</code>, <code>Audience_EndUser</code>), so there's no ambiguity.</p>
+                </li>
+                <li>
+                    <p>Translators can easily tell which content is intended for which user group, and you can generate audience-specific outputs without confusion.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="dont" MadCap:autonum="❌"> Poor example:</div>
+        <div class="descriptiveExample">
+            <div class="example"><code>&lt;p MadCap:conditions="UserType_Adv, Product_Old"&gt;This advanced feature is only present in the old version.&lt;/p&gt;</code>
+            </div>
+            <p>Problems:</p>
+            <ul>
+                <li>
+                    <p>Multiple condition tags are stacked without clarity. It’s unclear what the final output will include. If there's no documentation, a translator may not know which variant will be used or whether to translate both.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="translatorPOV">Transalator's POV [here will be an example of how the translator views conditions in Lingo and other CAT tools]</div>
     </body>
 </html>

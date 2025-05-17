@@ -7,7 +7,7 @@
         <h2>What’s the issue?</h2>
         <p>Inline formatting (like manually setting font colors, weights, or sizes in a WYSIWYG editor) may seem convenient, but it introduces major localization challenges.</p>
         <p>&#160;</p>
-        <div class="do">✅ Best practices:</div>
+        <div class="do" MadCap:autonum="✔️"> Best practices:</div>
         <ul>
             <li>
                 <p>Always define and apply styles via CSS classes or global stylesheets, not inline.</p>
@@ -20,23 +20,27 @@
             </li>
         </ul>
         <p>&#160;</p>
-        <div class="dont">❌ Pitfalls to avoid:</div>
+        <div class="dont" MadCap:autonum="❌"> Pitfalls to avoid:</div>
         <ul>
             <li>
                 <p>Adding labels or titles via CSS, such as:</p>
             </li>
         </ul>
-        <p><code>.warning::before {   content: "Caution: "; }</code>
-        </p>
-        <p>This "Caution" will never be translated unless the stylesheet itself is extracted and localized manually.</p>
+        <div class="descriptiveExample">
+            <p><code>.warning::before {   content: "Caution: "; }</code>
+            </p>
+            <p>This "Caution" will never be translated unless the stylesheet itself is extracted and localized manually.</p>
+        </div>
         <ul>
             <li>
                 <p>Applying formatting like <code>&lt;span style="font-weight:bold; color:red;"&gt;Important&lt;/span&gt;</code> inline. This is hard to manage at scale.</p>
             </li>
         </ul>
-        <p>Better approach: Define <code>.important-note</code> in your CSS and apply it as a class:</p>
-        <p><code>.important-note {   font-weight: bold;   color: red; }</code>
-        </p>
-        <p>Then simply apply the class in Flare.</p>
+        <div class="descriptiveExample">
+            <p>Better approach: Define <code>.important-note</code> in your CSS and apply it as a class:</p>
+            <p><code>.important-note {   font-weight: bold;   color: red; }</code>
+            </p>
+            <p>Then simply apply the class in Flare.</p>
+        </div>
     </body>
 </html>

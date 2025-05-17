@@ -18,11 +18,38 @@
                 <p><span class="bulletIntroduction">Use descriptive naming conventions:</span> Use names like <code>ProductName_Pro</code>, not just <code>Var1</code>, to help translators and other authors understand the content.</p>
             </li>
         </ul>
-        <div class="do">✅ Good example:
-        <div class="example">“The <code>&lt;Variable&gt;ProductName&lt;/Variable&gt;</code> supports multiple file formats.”</div><p>Why it's good:</p><ul><li><p>Clear, descriptive name</p></li><li><p>Contains a proper noun that does not depend on the grammatical structure of the sentence.</p></li></ul></div>
-        <div class="dont">❌ Poor example:
-        <div class="example">“This <code>&lt;Variable&gt;EventType&lt;/Variable&gt;</code> has already ended. You can start a new one.”
-        <ul><li><p>where <code>EventType</code> may be "webinar" or "meeting"</p></li></ul></div><p>Problems:</p><ul><li><p>In some languages, the variable may hold words that have different genders (in Polish, "webinar" in masculine (ten webinar) and "meeting" is neuter (to spotkanie)). This affects the whole sentence:</p><ul style="list-style-type: circle;"><li><p> "This <code>webinar</code> has already ended. You can start a new one." becomes "Ten webinar już się zakończył. Możesz rozpocząć nowy."</p></li><li><p>"This <code>meeting</code> has already ended. You can start a new one." becomes "To spotkanie już się zakończyło. Możesz rozpocząć nowe."</p></li></ul></li></ul></div>
+        <div class="do" MadCap:autonum="✔️"> Good example:</div>
+        <div class="descriptiveExample">
+            <div class="example">The <code>&lt;Variable&gt;ProductName&lt;/Variable&gt;</code> supports multiple file formats.</div>
+            <p>Why it's good:</p>
+            <ul>
+                <li>
+                    <p>Clear, descriptive name</p>
+                </li>
+                <li>
+                    <p>Contains a proper noun that does not depend on the grammatical structure of the sentence.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="dont" MadCap:autonum="❌"> Poor example:</div>
+        <div class="descriptiveExample">
+            <div class="example">This <code>&lt;Variable&gt;EventType&lt;/Variable&gt;</code> has already ended. You can start a new one.
+        </div>
+            <ul>
+                <li>
+                    <p>where <code>EventType</code> may be "webinar" or "meeting"Problems:</p>
+                </li>
+            </ul>
+            <p>In some languages, the variable may hold words that have different genders (in Polish, "webinar" is masculine (ten webinar) and "meeting" is neuter (to spotkanie)). This affects the whole sentence:</p>
+            <ul style="list-style-type: circle;">
+                <li>
+                    <p> <span class="example">This <code>webinar</code> has already ended. You can start a new one.</span> becomes <span class="example">Ten webinar już się zakończył. Możesz rozpocząć nowy.</span></p>
+                </li>
+                <li>
+                    <p><span class="example">This <code>meeting</code> has already ended. You can start a new one.</span>  becomes <span class="example">To spotkanie już się zakończyło. Możesz rozpocząć nowe.</span></p>
+                </li>
+            </ul>
+        </div>
         <div class="tip">Tip: In Flare and Lingo, you can flatten the variables and convert them to plain text. This way the translator can adjust the grammatical structure each time.</div>
         <div class="translatorPOV">Transalator's POV [here will be an example of how the translator views variables in Lingo and other CAT tools with flattening and without]</div>
     </body>

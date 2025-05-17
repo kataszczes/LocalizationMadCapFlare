@@ -14,7 +14,7 @@
                 <p>Icons that suggest direction (for example, arrows, “Next” buttons, forward/back) must also be mirrored to align with reading flow.</p>
             </li>
         </ul>
-        <div class="do">✅ Best practices:</div>
+        <div class="do" MadCap:autonum="✔️"> Best practices:</div>
         <ul>
             <li>
                 <p>Use Flare’s RTL support in stylesheets (<code>direction: rtl</code>) and page layouts.</p>
@@ -29,7 +29,7 @@
                 <p>Ensure all style and condition tags are applied consistently across the mirrored layout.</p>
             </li>
         </ul>
-        <div class="dont">❌ Pitfalls to avoid:</div>
+        <div class="dont" MadCap:autonum="❌"> Pitfalls to avoid:</div>
         <ul>
             <li>
                 <p>Using “forward” arrow icons that point right → in Arabic UI (should point ← instead).</p>
@@ -41,8 +41,9 @@
                 <p>Embedding text in images—RTL languages may require image mirroring, which becomes hard to do if text is baked in.</p>
             </li>
         </ul>
-        <div class="descriptiveExample">
-            <p>Example – Directional Icon Mismatch:</p>
+        <div class="longExample">
+            <p><strong>Example – directional icon mismatch:</strong>
+            </p>
             <p>A breadcrumb trail like “Home → Products → Details” should become “Details ← Products ← Home” in RTL output, along with matching icon direction.</p>
         </div>
     </body>

@@ -3,8 +3,10 @@
     <head>
     </head>
     <body>
-        <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: SelectLanguage;" data-mc-skin="/Project/Skins/Toolbar.flskn" />
-        <MadCap:breadcrumbsProxy />
-        <MadCap:bodyProxy />
+        <div class="topicContainer">
+            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: SelectLanguage;" data-mc-skin="/Project/Skins/Toolbar.flskn" />
+            <MadCap:breadcrumbsProxy />
+            <MadCap:bodyProxy />
+        </div>
     </body>
 </html>

@@ -18,10 +18,29 @@
                 <p><span class="bulletIntroduction">Keep code clean:</span> Avoid applying multiple types of tags (for example, snippet + variable + condition) within a short segment of text.</p>
             </li>
         </ul>
-        <div class="do">✅ Good example:
-        <div class="example"><code>&lt;p MadCap:conditions="Product_Pro"&gt;This feature is available in the Pro version only.&lt;/p&gt;</code></div><p>Why it's good:</p><ul><li><p>Descriptive and precise name</p></li><li><p>Applied to a single sentence for clarity</p></li><li><p>No overlapping or compound conditions</p></li></ul></div>
-        <div class="dont">❌ Poor example:
-        <div class="example"><code>&lt;p&gt;This feature is &lt;span MadCap:conditions="Product_Pro"&gt;available&lt;/span&gt; in the &lt;Variable&gt;ProductEdition&lt;/Variable&gt;.&lt;/p&gt;</code></div><p>Confusing to translate and maintain.</p></div>
+        <div class="do" MadCap:autonum="✔️"> Good example:</div>
+        <div class="descriptiveExample">
+            <div class="example"><code>&lt;p MadCap:conditions="Product_Pro"&gt;This feature is available in the Pro version only.&lt;/p&gt;</code>
+            </div>
+            <p>Why it's good:</p>
+            <ul>
+                <li>
+                    <p>Descriptive and precise name</p>
+                </li>
+                <li>
+                    <p>Applied to a single sentence for clarity</p>
+                </li>
+                <li>
+                    <p>No overlapping or compound conditions</p>
+                </li>
+            </ul>
+        </div>
+        <div class="dont" MadCap:autonum="❌"> Poor example:</div>
+        <div class="descriptiveExample">
+            <div class="example"><code>&lt;p&gt;This feature is &lt;span MadCap:conditions="Product_Pro"&gt;available&lt;/span&gt; in the &lt;Variable&gt;ProductEdition&lt;/Variable&gt;.&lt;/p&gt;</code>
+            </div>
+            <p>Confusing to translate and maintain.</p>
+        </div>
         <div class="translatorPOV">Transalator's POV [here will be an example of how the translator views tags in Lingo and other CAT tools]</div>
     </body>
 </html>
