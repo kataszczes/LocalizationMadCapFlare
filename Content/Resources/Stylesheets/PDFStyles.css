@@ -369,3 +369,8 @@ div.chapterBar
 	padding-left: 0.8rem;
 }
 
+div.exampleItalic
+{
+	font-style: italic;
+}
+

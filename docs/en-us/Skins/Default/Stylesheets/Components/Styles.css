@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 /* Search */
 /* Fix for safari/ios */
@@ -129,7 +129,7 @@ input[type="search"]
 .search-bar .search-submit
 {
 	width: 56px;
-	height: 2em;
+	height: 4em;
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
 	border-top-left-radius: 0px;
@@ -1761,4 +1761,3 @@ div.central-dropdown-content > a:hover
 {
 	background-color: transparent;
 }
-

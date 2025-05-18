@@ -18,4 +18,16 @@
     Name="Capture"
     Comment=""
     EvaluatedDefinition="MadCap Capture">MadCap Capture</Variable>
+  <Variable
+    Name="DeviceType"
+    Comment=""
+    EvaluatedDefinition="printer">printer</Variable>
+  <Variable
+    Name="PlatrormName"
+    Comment=""
+    EvaluatedDefinition="operating system">operating system</Variable>
+  <Variable
+    Name="ReleaseDate"
+    Comment=""
+    EvaluatedDefinition="June 2024">June 2024</Variable>
 </CatapultVariableSet>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultSkin
-  Version="3"
+  Version="6"
   SkinType="Component"
   Comment="HTML5 Search Bar skin"
   ComponentType="SearchBar"
@@ -19,8 +19,6 @@
           <Property
             Name="BorderBottomLeftRadius">0px</Property>
           <Property
-            Name="Height">4em</Property>
-          <Property
             Name="BorderTop">solid 1px #d3d3d3</Property>
           <Property
             Name="BorderRight">solid 1px #d3d3d3</Property>
@@ -30,6 +28,8 @@
             Name="BorderLeft">solid 1px #d3d3d3</Property>
           <Property
             Name="Width">100%</Property>
+          <Property
+            Name="Height">3em</Property>
         </Properties>
       </Style>
       <Style
