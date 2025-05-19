@@ -28,4 +28,16 @@
     BackgroundColor="#00ff00"
     Name="DEXF7model"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#f7fa38"
+    Name="User"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="Admin"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="BasicPlan"
+    Comment="" />
 </CatapultConditionTagSet>

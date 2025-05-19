@@ -253,10 +253,10 @@ div.translatorPOV
 	background-image: url('../Images/speaking-bubbles-black-icon.png');
 	background-repeat: no-repeat;
 	background-size: 30px;
-	background-position: 10px;
 	padding-left: 3rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	background-position: 10px 10px;
 }
 
 span.UIelement

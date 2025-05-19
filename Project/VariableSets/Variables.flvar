@@ -23,11 +23,15 @@
     Comment=""
     EvaluatedDefinition="printer">printer</Variable>
   <Variable
-    Name="PlatrormName"
+    Name="PlatformName"
     Comment=""
     EvaluatedDefinition="operating system">operating system</Variable>
   <Variable
     Name="ReleaseDate"
     Comment=""
     EvaluatedDefinition="June 2024">June 2024</Variable>
+  <Variable
+    Name="FeatureName"
+    Comment=""
+    EvaluatedDefinition="Recording">Recording</Variable>
 </CatapultVariableSet>
