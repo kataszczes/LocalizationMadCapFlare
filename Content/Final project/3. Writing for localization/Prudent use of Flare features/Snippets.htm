@@ -70,9 +70,9 @@
         <div class="tip">Tip: In Flare and Lingo, you can flatten the snippets and convert them to plain text. This way the translator sees the full contexts and can adjust the grammatical structure each time.</div>
         <div class="translatorPOV">
             <MadCap:snippetText src="../../../Resources/Snippets/TranslatorPOV.flsnp" />
-            <p>This is how text may appear in <MadCap:variable name="Variables.Flare" />:</p>
+            <p>Splitting a sentence into multiple snippets breaks sentence flow and removes necessary context for translators. This is how text with badly applied snippets may appear in <MadCap:variable name="Variables.Flare" />:</p>
             <img src="../../../Resources/Images/snippet/snippet-flare.png" style="width: 100%;padding-top: 0.5rem;padding-bottom: 0.5rem;" MadCap:mediastyle="@media print { width: 100%; }" alt="A screenshot of how snippets look in MadCap Flare" />
-            <p>This is how a translator sees this text with snippets maintained:</p>
+            <p>This is how a translator sees this text with the snippets maintained:</p>
             <ul>
                 <li>
                     <p><MadCap:variable name="Variables.Lingo" /> </p>
@@ -85,7 +85,24 @@
                 </li>
             </ul>
             <img src="../../../Resources/Images/snippet/snippet-trados-not.png" alt="A screenshot of an example text with badly applied snippets and how they look in SDL Trados Studio" MadCap:mediastyle="@media print { width: 100%; }" style="width: 100%;padding-top: 0.5rem;padding-bottom: 0.5rem;" />
-            <p>And this is how the translator sees the text with snippets flattened:</p>
+            <p>Problems:</p>
+            <ul style="list-style-type: square;">
+                <li>
+                    <p>The text is fragmented and lacks context.</p>
+                </li>
+            </ul>
+            <ul style="list-style-type: square;">
+                <li>
+                    <p><MadCap:variable name="Variables.Lingo" /> shows the content of a snippet; however it is not immediately editable as the  snippet is stored in a separate file.</p>
+                </li>
+                <li>
+                    <p>In third-party CAT tools like SDL Trados Studio or memoQ, the translator does not immediately see the content of a snippet. They must locate it in the project files manually.</p>
+                </li>
+                <li>
+                    <p>Adjusting the grammatical structure of a sentence is nearly impossible due to the fixed nature of snippets.</p>
+                </li>
+            </ul>
+            <p><MadCap:variable name="Variables.Flare" /> gives an opportunity to flatten snippets during the export process in order to remedy some of the possible problems. This is how the translator sees the text with snippets flattened:</p>
             <ul>
                 <li>
                     <p><MadCap:variable name="Variables.Lingo" />
@@ -98,7 +115,7 @@
                 </li>
             </ul>
             <img src="../../../Resources/Images/snippet/snippet-trados-flat.png" alt="A screenshot of an example text with badly applied snippets and how they look in SDL Trados Studio when flattened" MadCap:mediastyle="@media print { width: 100%; }" style="width: 100%;padding-top: 0.5rem;padding-bottom: 0.5rem;" />
-            <p>&#160;</p>
+            <p>In the case of snippets, flattening them solves most of the problems. However, the snippet feature is lost in the translated files, and so are the benefits of using them in the first place.</p>
         </div>
     </body>
 </html>

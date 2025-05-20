@@ -8,5 +8,8 @@
             <MadCap:breadcrumbsProxy />
             <MadCap:bodyProxy />
         </div>
+        <footer class="MTdisclaimer" MadCap:conditions="Default.PolishTarget,Default.WebExclude">
+            The content on this page has been automatically translated from English. Machine translation may contain errors. Please refer to the original English version for the most accurate information.
+        </footer>
     </body>
 </html>

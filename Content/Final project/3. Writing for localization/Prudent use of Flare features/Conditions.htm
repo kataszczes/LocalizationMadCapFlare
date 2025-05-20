@@ -92,7 +92,7 @@
         <div class="translatorPOV">
             <MadCap:snippetText src="../../../Resources/Snippets/TranslatorPOV.flsnp" />
             <p>
-                <p>This is how text may appear in <MadCap:variable name="Variables.Flare"></MadCap:variable>:</p>
+                <p>Using conditions mid-sentence to create content variants can make it unclear what the final outputs will look like and harder for translators to work with. This is how text with badly applied conditions may appear in <MadCap:variable name="Variables.Flare" />:</p>
                 <p>
                     <img src="../../../Resources/Images/condition/condition-flare.png" style="width: 100%;padding-top: 0.5rem;padding-bottom: 0.5rem;" MadCap:mediastyle="@media print { width: 100%; }" alt="A screenshot of how conditions look in MadCap Flare" />
                 </p>
@@ -114,7 +114,18 @@
                 <p>
                     <img src="../../../Resources/Images/condition/condition-trados-not.png" alt="A screenshot of an example text with badly applied conditions and how they look in SDL Trados Studio" MadCap:mediastyle="@media print { width: 100%; }" style="width: 100%;padding-top: 0.5rem;padding-bottom: 0.5rem;" />
                 </p>
-                <p>And this is how the translator sees the text with snippets flattened:</p>
+                <p>Problems:</p>
+                <ul style="list-style-type: square;">
+                    <li>
+                        <p>An abundance of tags creates visual clutter, making it difficult to understand the sentence structure and anticipate the final outputs.</p>
+                    </li>
+                    <li>
+                        <p>Conditional text may require different grammatical structures in inflected languages, making accurate translation more difficult or even impossible.</p>
+                    </li>
+                    <li>
+                        <p>Creating plural forms of nouns by adding "-s" inside a conditional tag  makes translation nearly impossible in many languages.</p>
+                    </li>
+                </ul>
             </p>
         </div>
     </body>

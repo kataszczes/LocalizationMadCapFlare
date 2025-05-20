@@ -55,7 +55,7 @@
         <div class="translatorPOV">
             <MadCap:snippetText src="../../../Resources/Snippets/TranslatorPOV.flsnp" />
             <p>
-                <p>This is how text may appear in <MadCap:variable name="Variables.Flare"></MadCap:variable>:</p>
+                <p>Using variables for common nouns makes it difficult—or even impossible—to account for varying genders, numbers, and grammatical cases in translated content. This is how text with badly applied variables may appear in <MadCap:variable name="Variables.Flare"></MadCap:variable>:</p>
                 <p>
                     <img src="../../../Resources/Images/variable/variable-flare.png" style="width: 100%;padding-top: 0.5rem;padding-bottom: 0.5rem;" MadCap:mediastyle="@media print { width: 100%; }" alt="A screenshot of how variables look in MadCap Flare" />
                 </p>
@@ -77,7 +77,19 @@
                 <p>
                     <img src="../../../Resources/Images/variable/variable-trados-not.png" alt="A screenshot of an example text with badly applied variables and how they look in SDL Trados Studio" MadCap:mediastyle="@media print { width: 100%; }" style="width: 100%;padding-top: 0.5rem;padding-bottom: 0.5rem;" />
                 </p>
-                <p>And this is how the translator sees the text with variables flattened:</p>
+                <p>Problems:</p>
+                <ul style="list-style-type: square;">
+                    <li>
+                        <p>The translator does not see the content of a variable—neither in <MadCap:variable name="Variables.Lingo" /> nor in a third-party CAT tool—as variables are stored in a separate file.</p>
+                    </li>
+                    <li>
+                        <p>Common nouns used as variables typically need to be translated and, in some languages, inflected or otherwise grammatically adjusted. This is not possible during translation due to the fixed nature of variables.</p>
+                    </li>
+                    <li>
+                        <p>Changing a variable may alter the gender of the noun it contains in the translated language. Such a change can require rewriting the surrounding sentence, which defeats the purpose of using variables to save time and effort.</p>
+                    </li>
+                </ul>
+                <p><MadCap:variable name="Variables.Flare" /> gives an opportunity to flatten variables during the export process in order to remedy some of the possible problems. This is how the translator sees the text with variables flattened:</p>
                 <ul>
                     <li>
                         <p><MadCap:variable name="Variables.Lingo" />
@@ -95,7 +107,7 @@
                 <p>
                     <img src="../../../Resources/Images/variable/variable-trados-flat.png" alt="A screenshot of an example text with badly applied variables and how they look in SDL Trados Studio when flattened" MadCap:mediastyle="@media print { width: 100%; }" style="width: 100%;padding-top: 0.5rem;padding-bottom: 0.5rem;" />
                 </p>
-                <p>&#160;</p>
+                <p>In the case of variables, flattening them solves most of the problems. However, the variables feature is lost in the translated files, and so are the benefits of using them in the first place.</p>
             </p>
         </div>
     </body>

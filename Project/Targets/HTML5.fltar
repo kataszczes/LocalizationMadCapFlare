@@ -12,7 +12,8 @@
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   TargetLanguage="en"
   OutputFile="index.html"
-  TopicToolbarSkin="/Project/Skins/Toolbar.flskn">
+  TopicToolbarSkin="/Project/Skins/Toolbar.flskn"
+  ConditionTagExpression="exclude[Default.PolishTarget or Default.WebExclude]">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

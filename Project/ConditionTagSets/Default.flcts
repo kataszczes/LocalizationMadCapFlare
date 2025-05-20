@@ -40,4 +40,12 @@
     BackgroundColor="#8b4513"
     Name="BasicPlan"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#07b2b2"
+    Name="PolishTarget"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="WebExclude"
+    Comment="" />
 </CatapultConditionTagSet>

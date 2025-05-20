@@ -364,3 +364,13 @@ div.exampleItalic
 	font-style: italic;
 }
 
+footer.MTdisclaimer
+{
+	color: #6C7A89;
+	font-size: 0.85rem;
+	font-style: italic;
+	display: block;
+	text-align: right;
+	margin-top: 3rem;
+}
+
