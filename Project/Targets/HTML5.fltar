@@ -10,7 +10,7 @@
   DefaultUrl="/Content/Home.htm"
   MasterToc="/Project/TOCs/Master.fltoc"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
-  TargetLanguage="en"
+  TargetLanguage="en-us,pl_../../../My Project Exports/Localization-PL/Localization-PL.flprj"
   OutputFile="index.html"
   TopicToolbarSkin="/Project/Skins/Toolbar.flskn"
   ConditionTagExpression="exclude[Default.PolishTarget or Default.WebExclude]">
