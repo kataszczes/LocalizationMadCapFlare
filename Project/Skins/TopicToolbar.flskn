@@ -28,6 +28,8 @@
             Name="Float">right</Property>
           <Property
             Name="MarginRight">2em</Property>
+          <Property
+            Name="MarginTop">1em</Property>
         </Properties>
       </Style>
     </Styles>
