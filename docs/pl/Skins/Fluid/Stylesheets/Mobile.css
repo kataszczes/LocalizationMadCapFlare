@@ -6,15 +6,21 @@
 	{
 		background-position: center top;
 		background-repeat: no-repeat;
-		background-color: #ffffff;
+		background: #ffffff;
+		background: -moz-linear-gradient(top, transparent 0%, #E0E7E9 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#E0E7E9));
+		background: -webkit-linear-gradient(top, transparent 0%, #E0E7E9 100%);
+		background: -o-linear-gradient(top, transparent 0%,#E0E7E9 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#E0E7E9 100%);
+		background: linear-gradient(transparent 0%,#E0E7E9 100%);
+		-pie-background: linear-gradient(transparent, #E0E7E9);
 	}
 
 	.title-bar-layout a.logo
 	{
-		width: 287px;
-		height: 69px;
-		background: transparent url('Images/logo-purple.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/logo-purple.png') no-repeat center center;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background: none;
 	}
 
 	.search-bar .search-submit
@@ -415,12 +421,12 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 69px;
+		min-height: 40px;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 69px;
+		min-height: 40px;
 	}
 
 	.off-canvas-wrapper-inner .main-section > .outer-row
@@ -978,7 +984,7 @@
 
 	.search-filter-content
 	{
-		top: 4em;
+		top: 2.5em;
 		background-color: #ffffff;
 	}
 

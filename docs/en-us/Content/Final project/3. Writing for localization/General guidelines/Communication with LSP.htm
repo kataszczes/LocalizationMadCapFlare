@@ -3,7 +3,12 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Communication with LSP</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../../Skins/Favicons/favicon-16x16.png" /><title>Communication with LSP</title>
         <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -65,6 +70,10 @@
 }
 
 </style>
+        <link rel="shortcut icon" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../../Skins/Favicons/favicon-16x16.png" />
         <script src="../../../../Resources/Scripts/jquery.min.js" type="text/javascript">
         </script>
         <script src="../../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
@@ -157,101 +166,103 @@
                             </nav>
                             <div class="body-container">
                                 <div data-mc-content-body="True">
-                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: SelectLanguage;">
-                                        <div class="button-group-container-left">
-                                            <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
-                                                        <div class="button-icon"> </div>
+                                    <div class="topicContainer">
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: SelectLanguage;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </button>
-                                            <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
-                                                        <div class="button-icon"> </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
+                                                </button>
+                                                <div class="button-separator">
                                                 </div>
-                                            </button>
-                                            <div class="button-separator">
+                                                <button class="button needs-pie print-button" title="Print">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <div class="button-separator">
+                                                </div>
+                                                <button class="button needs-pie select-language-button" title="Change language">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Change language">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
                                             </div>
-                                            <button class="button needs-pie print-button" title="Print">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
-                                                        <div class="button-icon"> </div>
-                                                    </div>
-                                                </div>
-                                            </button>
-                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Expand all">
-                                                        <div class="button-icon"> </div>
-                                                    </div>
-                                                </div>
-                                            </button>
-                                            <div class="button-separator">
+                                        </div>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
                                             </div>
-                                            <button class="button needs-pie select-language-button" title="Change language">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Change language">
-                                                        <div class="button-icon"> </div>
-                                                    </div>
-                                                </div>
-                                            </button>
                                         </div>
-                                    </div>
-                                    <div class="nocontent">
-                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        <div role="main" id="mc-main-content">
+                                            <h1 class="h1-mcThirdLevel">Communication with LSP</h1>
+                                            <p>Effective communication with your Language Service Provider (LSP) is crucial for successful localization. Establishing clear, consistent, and proactive communication channels ensures that your content is accurately translated and localized, aligning with your project's goals and timelines.</p>
+                                            <h3>Establish a collaborative relationship</h3>
+                                            <ul>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Early engagement:</span> Involve your LSP during the planning stages of your project. Early collaboration allows for better alignment on project scope, timelines, and expectations.​</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Understanding capabilities:</span> Ensure that your LSP is familiar with <span class="mc-variable Variables.Flare variable">MadCap Flare</span> and its associated tools like <span class="mc-variable Variables.Lingo variable">MadCap Lingo</span> and <span class="mc-variable Variables.Capture variable">MadCap Capture</span>, or find out which third-party tool will be used for localization of your project.​</p>
+                                                </li>
+                                            </ul>
+                                            <h3>Provide comprehensive context</h3>
+                                            <ul>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Project overview:</span> Share detailed information about your project's structure, objectives, and target audience. This includes providing access to style guides, glossaries, and any existing translation memories.​</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Reference materials:</span> Supply your LSP with relevant materials such as final PDFs, screenshots, and training guides. These resources offer context that aids in accurate translation.​</p>
+                                                </li>
+                                            </ul>
+                                            <h3>Define clear processes and expectations</h3>
+                                            <ul>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Workflow alignment:</span> Discuss and agree upon workflows, including file formats, delivery schedules, and quality assurance procedures. Clear workflows minimize misunderstandings and streamline the localization process.​</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Feedback mechanisms:</span> Establish channels for regular feedback and updates. Open communication allows for prompt resolution of issues and continuous improvement.​</p>
+                                                </li>
+                                            </ul>
+                                            <h3>Leverage technology and tools</h3>
+                                            <ul>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Utilizing CAT tools:</span> Whether using <span class="mc-variable Variables.Lingo variable">MadCap Lingo</span> or other CAT tools like Trados Studio, memoQ, or Phrase (Memsource), ensure your LSP is proficient with the chosen platform. Compatibility with Flare exports (for example, XLIFF, HTML5, or PDF) is essential to maintain translation accuracy and efficiency.</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Translation memory (TM) and terminology management</span>: Work with your LSP to build and maintain robust TMs and termbases. These resources promote consistency across translations and reduce costs over time.​</p>
+                                                </li>
+                                            </ul>
+                                            <h3>Continuous collaboration and improvement</h3>
+                                            <ul>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Regular reviews:</span> Conduct periodic reviews of translated content to ensure quality and adherence to guidelines. Collaborative reviews foster a sense of partnership and shared responsibility.​</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Training and updates:</span> Keep your LSP informed about updates to your products or services. Regular training sessions can help your LSP stay aligned with your evolving needs.​</p>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </div>
-                                    <div role="main" id="mc-main-content">
-                                        <h1>Communication with LSP</h1>
-                                        <p>Effective communication with your Language Service Provider (LSP) is crucial for successful localization. Establishing clear, consistent, and proactive communication channels ensures that your content is accurately translated and localized, aligning with your project's goals and timelines.</p>
-                                        <h3>Establish a collaborative relationship</h3>
-                                        <ul>
-                                            <li>
-                                                <p>Early engagement: Involve your LSP during the planning stages of your project. Early collaboration allows for better alignment on project scope, timelines, and expectations.​</p>
-                                            </li>
-                                            <li>
-                                                <p>Understanding capabilities: Ensure that your LSP is familiar with MadCap Flare and its associated tools like MadCap Lingo and Capture. An experienced LSP can provide valuable insights into optimizing your Flare projects for translation.​</p>
-                                            </li>
-                                        </ul>
-                                        <h3>Provide comprehensive context</h3>
-                                        <ul>
-                                            <li>
-                                                <p>Project overview: Share detailed information about your project's structure, objectives, and target audience. This includes providing access to style guides, glossaries, and any existing translation memories.​</p>
-                                            </li>
-                                            <li>
-                                                <p>Reference materials: Supply your LSP with relevant materials such as final PDFs, screenshots, and training guides. These resources offer context that aids in accurate translation.​</p>
-                                            </li>
-                                        </ul>
-                                        <h3>Define clear processes and expectations</h3>
-                                        <ul>
-                                            <li>
-                                                <p>Workflow alignment: Discuss and agree upon workflows, including file formats, delivery schedules, and quality assurance procedures. Clear workflows minimize misunderstandings and streamline the localization process.​</p>
-                                            </li>
-                                            <li>
-                                                <p>Feedback mechanisms: Establish channels for regular feedback and updates. Open communication allows for prompt resolution of issues and continuous improvement.​</p>
-                                            </li>
-                                        </ul>
-                                        <h3>Leverage technology and tools</h3>
-                                        <ul>
-                                            <li>
-                                                <p>Utilizing CAT tools: Whether using MadCap Lingo or other Computer-Assisted Translation (CAT) tools like Trados Studio, memoQ, or Phrase (Memsource), ensure your LSP is proficient with the chosen platform. Compatibility with Flare exports (for example, XLIFF, HTML5, or PDF) is essential to maintain translation accuracy and efficiency.</p>
-                                            </li>
-                                            <li>
-                                                <p>Translation memory (TM) and terminology management: Work with your LSP to build and maintain robust TMs and termbases. These resources promote consistency across translations and reduce costs over time.​</p>
-                                            </li>
-                                        </ul>
-                                        <h3>Continuous collaboration and improvement</h3>
-                                        <ul>
-                                            <li>
-                                                <p>Regular reviews: Conduct periodic reviews of translated content to ensure quality and adherence to guidelines. Collaborative reviews foster a sense of partnership and shared responsibility.​</p>
-                                            </li>
-                                            <li>
-                                                <p>Training and updates: Keep your LSP informed about updates to your products or services. Regular training sessions can help your LSP stay aligned with your evolving needs.​</p>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>

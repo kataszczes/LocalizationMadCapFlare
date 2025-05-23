@@ -914,9 +914,800 @@ div.central-dropdown-content > a:hover
 	-pie-background: linear-gradient(transparent, #ffffff);
 }
 
+._Skins_SearchHome.mc-component .search-auto-complete ul
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-left: solid 1px #808080;
+	border-right: solid 1px #808080;
+	border-top: solid 1px #808080;
+	border-bottom: solid 1px #808080;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #ffffff;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li a
+{
+	color: #000000;
+	font-weight: normal;
+	padding-left: 7px;
+	padding-right: 27px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item a
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item
+{
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content a
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history a
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item.auto-result-selected a
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item.auto-result-selected
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #ececec;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content.auto-result-selected
+{
+	background-color: #ececec;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history.auto-result-selected
+{
+	background-color: #ececec;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-description
+{
+	color: #888888;
+	font-size: 13px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-description
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-description
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-icon
+{
+	margin-right: 5px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-icon
+{
+	background: transparent url('Images/icon-topic.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-topic.png') no-repeat center center;
+	background-size: contain;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-icon
+{
+	background: transparent url('Images/icon-search.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-search.png') no-repeat center center;
+	background-size: contain;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase
+{
+	font-size: 16px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
+{
+	font-weight: bold;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li .auto-result-remove
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 17px;
+	height: 27px;
+	background: transparent url('Images/icon-remove.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-remove.png') no-repeat center center;
+	background-size: contain;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-separator
+{
+	
+}
+
+.search-bar._Skins_SearchHome.mc-component
+{
+	display: block;
+	width: 100%;
+	height: 3em;
+	margin-top: 10px;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field
+{
+	height: 3em;
+	border-left: solid 1px #d3d3d3;
+	border-right: solid 1px #d3d3d3;
+	border-top: solid 1px #d3d3d3;
+	border-bottom: solid 1px #d3d3d3;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	color: #5F5F5F;
+	font-size: 1em;
+	padding-left: 10px;
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter
+{
+	height: 3em;
+	border-top: solid 1px #d3d3d3;
+	border-bottom: solid 1px #d3d3d3;
+	border-left: solid 1px #000000;
+	border-right: solid 1px #000000;
+	width: 45px;
+	background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
+	-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-submit
+{
+	height: 3em;
+	border-right: solid 1px #d3d3d3;
+	border-top: solid 1px #d3d3d3;
+	border-bottom: solid 1px #d3d3d3;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+._Skins_SearchHome.mc-component .search-filter-content
+{
+	top: 3em;
+	color: #888888;
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter-wrapper.open
+{
+	-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
+	color: #888888;
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter:hover
+{
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter.selected
+{
+	background: transparent url('Images/Filter.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/Filter.png') no-repeat center center;
+}
+
+._Skins_SearchHome.mc-component .search-filter-content ul li:hover
+{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+._Skins_SearchHome.mc-component .search-filter-content ul li button:focus
+{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field::-webkit-input-placeholder
+{
+	color: #5F5F5F;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field::-moz-placeholder
+{
+	color: #5F5F5F;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field:-moz-placeholder
+{
+	color: #5F5F5F;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field:-ms-input-placeholder
+{
+	color: #5F5F5F;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-submit-wrapper
+{
+	font-size: 1em;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter-wrapper
+{
+	font-size: 1em;
+	right: 56px;
+}
+
+.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit
+{
+	width: 56px;
+	background: transparent url('Images/icon-search-gray_1.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-search-gray_1.png') no-repeat center center;
+}
+
+.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit:hover
+{
+	background-color: transparent;
+}
+
+.buttons._Skins_TopicToolbar.mc-component
+{
+	float: right;
+	margin-right: 2em;
+	margin-top: 1em;
+}
+
+._Skins_TopicToolbar.mc-component .button
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-left: solid 1px #e1e1e1;
+	border-right: solid 1px #e1e1e1;
+	border-top: solid 1px #e1e1e1;
+	border-bottom: solid 1px #e1e1e1;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 22px;
+	height: 22px;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button > div
+{
+	flex-direction: row;
+}
+
+._Skins_TopicToolbar.mc-component .button .button-icon
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button .button-icon-wrapper
+{
+	width: 22px;
+	height: 22px;
+}
+
+._Skins_TopicToolbar.mc-component .button .button-text
+{
+	color: #000000;
+}
+
+._Skins_TopicToolbar.mc-component .button.collapse-all-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.collapse-all-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.collapse-all-button .button-icon
+{
+	background: transparent url('Images/collapse.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/collapse.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.collapse-all-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.collapse-all-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.current-topic-index-button
+{
+	color: #6c6c6c;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: auto;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.edit-user-profile-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.edit-user-profile-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.edit-user-profile-button .button-icon
+{
+	background: transparent url('Images/edit-profile.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/edit-profile.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.edit-user-profile-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.edit-user-profile-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.expand-all-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.expand-all-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.expand-all-button .button-icon
+{
+	background: transparent url('Images/expand.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/expand.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.expand-all-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.expand-all-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.login-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.login-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.login-button .button-icon
+{
+	background: transparent url('Images/login.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/login.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.login-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.login-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.next-topic-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.next-topic-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.next-topic-button .button-icon
+{
+	background: transparent url('Images/navigate-next.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/navigate-next.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.next-topic-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.next-topic-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.previous-topic-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.previous-topic-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.previous-topic-button .button-icon
+{
+	background: transparent url('Images/navigate-previous.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/navigate-previous.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.previous-topic-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.previous-topic-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.print-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.print-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.print-button .button-icon
+{
+	background: transparent url('Images/printer.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/printer.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.print-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.print-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.remove-highlight-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.remove-highlight-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.remove-highlight-button .button-icon
+{
+	background: transparent url('Images/highlight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/highlight.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.remove-highlight-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.remove-highlight-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.select-language-button
+{
+	padding-right: 0em;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.select-language-button > div
+{
+	flex-direction: row;
+}
+
+._Skins_TopicToolbar.mc-component .button.select-language-button .button-icon
+{
+	background: transparent url('Images/select-language.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/select-language.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.select-language-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.select-language-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.select-skin-button
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.select-skin-button > div
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.select-skin-button .button-icon
+{
+	background: transparent url('Images/select-skin.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/select-skin.png');
+}
+
+._Skins_TopicToolbar.mc-component .button.select-skin-button .button-icon-wrapper
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.select-skin-button .button-text
+{
+	
+}
+
+._Skins_TopicToolbar.mc-component .button.topic-ratings-button
+{
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	width: 16px;
+	background: transparent url('Images/star-full.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/star-full.png') no-repeat center center;
+	background-size: 16px 16px;
+}
+
+._Skins_TopicToolbar.mc-component .button.topic-ratings-empty-button
+{
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	width: 16px;
+	background: transparent url('Images/star-empty.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/star-empty.png') no-repeat center center;
+	background-size: 16px 16px;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down
+{
+	color: #707070;
+	border-left: solid 4px transparent;
+	border-right: solid 4px transparent;
+	border-top: solid 4px transparent;
+	border-bottom: solid 4px transparent;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-language-drop-down
+{
+	background-color: #FFFFFF;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-language-drop-down ul li:hover
+{
+	color: #000;
+	background-color: #E5EFF7;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-skin-drop-down
+{
+	background-color: #FFFFFF;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-skin-drop-down ul li:hover
+{
+	color: #000;
+	background-color: #E5EFF7;
+}
+
+._Skins_TopicToolbar.mc-component .button-separator
+{
+	color: #e1e1e1;
+	background-color: #e1e1e1;
+	height: 24px;
+}
+
 .buttons._Skins_Toolbar.mc-component
 {
 	float: right;
+	margin-right: 2em;
 }
 
 ._Skins_Toolbar.mc-component .button
@@ -1466,299 +2257,5 @@ div.central-dropdown-content > a:hover
 	color: #e1e1e1;
 	background-color: #e1e1e1;
 	height: 24px;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete ul
-{
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	border-left: solid 1px #808080;
-	border-right: solid 1px #808080;
-	border-top: solid 1px #808080;
-	border-bottom: solid 1px #808080;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	background-color: #ffffff;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li a
-{
-	color: #000000;
-	font-weight: normal;
-	padding-left: 7px;
-	padding-right: 27px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item a
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item
-{
-	margin-left: 2px;
-	margin-right: 2px;
-	margin-top: 2px;
-	margin-bottom: 2px;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content a
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history a
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item.auto-result-selected a
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item.auto-result-selected
-{
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	background-color: #ececec;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content.auto-result-selected
-{
-	background-color: #ececec;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history.auto-result-selected
-{
-	background-color: #ececec;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-description
-{
-	color: #888888;
-	font-size: 13px;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-description
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-description
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-icon
-{
-	margin-right: 5px;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-icon
-{
-	background: transparent url('Images/icon-topic.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-topic.png') no-repeat center center;
-	background-size: contain;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-icon
-{
-	background: transparent url('Images/icon-search.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-search.png') no-repeat center center;
-	background-size: contain;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase
-{
-	font-size: 16px;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
-{
-	font-weight: bold;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
-{
-	
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li .auto-result-remove
-{
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 2px;
-	margin-bottom: 2px;
-	width: 17px;
-	height: 27px;
-	background: transparent url('Images/icon-remove.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-remove.png') no-repeat center center;
-	background-size: contain;
-}
-
-._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-separator
-{
-	
-}
-
-.search-bar._Skins_SearchHome.mc-component
-{
-	display: block;
-	width: 100%;
-	height: 4em;
-	margin-top: 10px;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-field
-{
-	height: 4em;
-	border-left: solid 1px #d3d3d3;
-	border-right: solid 1px #d3d3d3;
-	border-top: solid 1px #d3d3d3;
-	border-bottom: solid 1px #d3d3d3;
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 0px;
-	border-bottom-left-radius: 0px;
-	color: #5F5F5F;
-	font-size: 1em;
-	padding-left: 10px;
-	background-color: #ffffff;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-filter
-{
-	height: 4em;
-	border-top: solid 1px #d3d3d3;
-	border-bottom: solid 1px #d3d3d3;
-	border-left: solid 1px #000000;
-	border-right: solid 1px #000000;
-	width: 45px;
-	background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
-	-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-submit
-{
-	height: 4em;
-	border-right: solid 1px #d3d3d3;
-	border-top: solid 1px #d3d3d3;
-	border-bottom: solid 1px #d3d3d3;
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 0px;
-}
-
-._Skins_SearchHome.mc-component .search-filter-content
-{
-	top: 4em;
-	color: #888888;
-	background-color: #ffffff;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-filter-wrapper.open
-{
-	-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
-	color: #888888;
-	background-color: #ffffff;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-filter:hover
-{
-	background-color: #ffffff;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-filter.selected
-{
-	background: transparent url('Images/Filter.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/Filter.png') no-repeat center center;
-}
-
-._Skins_SearchHome.mc-component .search-filter-content ul li:hover
-{
-	color: #000000;
-	background-color: #ffffff;
-}
-
-._Skins_SearchHome.mc-component .search-filter-content ul li button:focus
-{
-	color: #000000;
-	background-color: #ffffff;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-field::-webkit-input-placeholder
-{
-	color: #5F5F5F;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-field::-moz-placeholder
-{
-	color: #5F5F5F;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-field:-moz-placeholder
-{
-	color: #5F5F5F;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-field:-ms-input-placeholder
-{
-	color: #5F5F5F;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-submit-wrapper
-{
-	font-size: 1em;
-}
-
-.search-bar._Skins_SearchHome.mc-component .search-filter-wrapper
-{
-	font-size: 1em;
-	right: 56px;
-}
-
-.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit
-{
-	width: 56px;
-	background: transparent url('Images/icon-search-gray_1.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-search-gray_1.png') no-repeat center center;
-}
-
-.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit:hover
-{
-	background-color: transparent;
 }
 

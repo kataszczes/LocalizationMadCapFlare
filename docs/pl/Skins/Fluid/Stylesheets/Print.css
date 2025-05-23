@@ -23,7 +23,15 @@
 	{
 		display: none;
 		background-repeat: no-repeat;
-		background-color: #ffffff;
+		background: #ffffff;
+		background: -moz-linear-gradient(top, transparent 0%, #E0E7E9 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#E0E7E9));
+		background: -webkit-linear-gradient(top, transparent 0%, #E0E7E9 100%);
+		background: -o-linear-gradient(top, transparent 0%,#E0E7E9 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#E0E7E9 100%);
+		background: linear-gradient(transparent 0%,#E0E7E9 100%);
+		-pie-background: linear-gradient(transparent, #E0E7E9);
+		background-position: center top;
 	}
 
 	/* Side Navigation Menu styles */
@@ -31,7 +39,7 @@
 	.sidenav-wrapper
 	{
 		display: none;
-		background-color: #f1f1f1;
+		background-color: #E0E7E9;
 	}
 
 	.sidenav-wrapper ul.menu
@@ -410,8 +418,9 @@
 
 	.title-bar-layout a.logo
 	{
-		background: transparent url('Images/logo-purple.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/logo-purple.png') no-repeat center center;
+		background-repeat: no-repeat;
+		background: none;
+		background-position: center center;
 	}
 
 	.main-section > .outer-row
@@ -1125,7 +1134,7 @@
 
 	.sidenav-container ul ul
 	{
-		background-color: #f1f1f1;
+		background-color: #E0E7E9;
 	}
 
 	.sidenav-container

@@ -3,7 +3,12 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Sample Landing Topic</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" /><title>Sample Landing Topic</title>
         <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -65,6 +70,10 @@
 }
 
 </style>
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
         <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
         </script>
         <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
@@ -104,7 +113,7 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="Home.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="Strona główna.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
@@ -157,64 +166,69 @@
                             </nav>
                             <div class="body-container">
                                 <div data-mc-content-body="True">
-                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
-                                        <div class="button-group-container-left">
-                                            <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
-                                                        <div class="button-icon"> </div>
+                                    <div class="topicContainer">
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: SelectLanguage;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </button>
-                                            <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
-                                                        <div class="button-icon"> </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
+                                                </button>
+                                                <div class="button-separator">
                                                 </div>
-                                            </button>
-                                            <div class="button-separator">
-                                            </div>
-                                            <button class="button needs-pie print-button" title="Print">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
-                                                        <div class="button-icon"> </div>
+                                                <button class="button needs-pie print-button" title="Print">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </button>
-                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Expand all">
-                                                        <div class="button-icon"> </div>
+                                                </button>
+                                                <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
+                                                </button>
+                                                <div class="button-separator">
                                                 </div>
-                                            </button>
-                                            <div class="button-separator">
-                                            </div>
-                                            <button class="button needs-pie select-language-button" title="Change language">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Change language">
-                                                        <div class="button-icon"> </div>
+                                                <button class="button needs-pie select-language-button" title="Zmień język">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Zmień język">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div role="main" id="mc-main-content">
-                                        <h1>Sample Landing Topic</h1>
-                                        <p>This is a sample landing topic. </p>
-                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Drop-down text.</a></span>
-                                            <div class="MCDropDownBody dropDownBody">
-                                                <p>In order to use drop-down text. Highlight the text you want to become a drop-down. Then go to the insert ribbon and select Drop-Down Text.</p>
+                                                </button>
                                             </div>
                                         </div>
-                                        <p>&#160;</p>
-                                        <p>Lorem ipsum dolor sit amet, ut utamur lobortis mea, ex mazim partem verterem usu, ad nullam fierent vix. Sit an facete aeterno, eu ferri putant est, nec suas justo laoreet id. Nec ut unum pertinax. Mei ut ocurreret deseruisse. Cu per utamur prodesset, solet nostro adipiscing usu cu.</p>
-                                        <p>Verear perfecto consequuntur nam eu, ei malis efficiendi dissentiunt his. Sed et ferri electram prodesset, nec in malis gloriatur. Quo no dico saperet explicari, no mea unum electram. Tacimates vituperatoribus id eos, doctus fabellas tractatos ea cum. Pro soluta everti urbanitas ad, simul laoreet interesset an est, id est exerci nominati. Id habeo clita complectitur pri, esse primis aeterno at cum.</p>
-                                        <p>Iusto altera salutandi et ius. Nam an atqui semper mediocrem, sed eu eius legimus principes. Qui consul eligendi assueverit ei, eu veri theophrastus mea. Ut vis meis corpora accusata, eros elitr nihil pri te, ei mea doming constituto. Ut agam duis justo vel. Te nulla evertitur eos, ne ius paulo partiendo erroribus. Moderatius honestatis signiferumque an est.</p>
-                                        <p>Ei mel percipit corrumpit, te mei dicam postea. At quo rebum alterum vocibus, scripta officiis fabellas ex sed, ei velit instructior theophrastus mea. Mel modus aeque scaevola an. Ea sit ludus aliquam appareat, possim euismod philosophia nam ex, ad nonumy denique sea. Wisi mutat cu vel, postea noluisse quaerendum ei pri, tota alienum ponderum nam ne. Vero omnis has te, mei in copiosae vulputate.</p>
-                                        <p>Cum no tamquam impedit, nam ut veri ubique utroque. In admodum persecuti vim. Enim fugit accusata ei nec. Ei vix reque alterum saperet, in indoctum definitionem pri, quis audiam alterum duo ea.</p>
+                                        <div role="main" id="mc-main-content">
+                                            <h1>Sample Landing Topic</h1>
+                                            <p>This is a sample landing topic. </p>
+                                            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Drop-down text.</a></span>
+                                                <div class="MCDropDownBody dropDownBody">
+                                                    <p>In order to use drop-down text. Highlight the text you want to become a drop-down. Then go to the insert ribbon and select Drop-Down Text.</p>
+                                                </div>
+                                            </div>
+                                            <p>&#160;</p>
+                                            <p>Lorem ipsum dolor sit amet, ut utamur lobortis mea, ex mazim partem verterem usu, ad nullam fierent vix. Sit an facete aeterno, eu ferri putant est, nec suas justo laoreet id. Nec ut unum pertinax. Mei ut ocurreret deseruisse. Cu per utamur prodesset, solet nostro adipiscing usu cu.</p>
+                                            <p>Verear perfecto consequuntur nam eu, ei malis efficiendi dissentiunt his. Sed et ferri electram prodesset, nec in malis gloriatur. Quo no dico saperet explicari, no mea unum electram. Tacimates vituperatoribus id eos, doctus fabellas tractatos ea cum. Pro soluta everti urbanitas ad, simul laoreet interesset an est, id est exerci nominati. Id habeo clita complectitur pri, esse primis aeterno at cum.</p>
+                                            <p>Iusto altera salutandi et ius. Nam an atqui semper mediocrem, sed eu eius legimus principes. Qui consul eligendi assueverit ei, eu veri theophrastus mea. Ut vis meis corpora accusata, eros elitr nihil pri te, ei mea doming constituto. Ut agam duis justo vel. Te nulla evertitur eos, ne ius paulo partiendo erroribus. Moderatius honestatis signiferumque an est.</p>
+                                            <p>Ei mel percipit corrumpit, te mei dicam postea. At quo rebum alterum vocibus, scripta officiis fabellas ex sed, ei velit instructior theophrastus mea. Mel modus aeque scaevola an. Ea sit ludus aliquam appareat, possim euismod philosophia nam ex, ad nonumy denique sea. Wisi mutat cu vel, postea noluisse quaerendum ei pri, tota alienum ponderum nam ne. Vero omnis has te, mei in copiosae vulputate.</p>
+                                            <p>Cum no tamquam impedit, nam ut veri ubique utroque. In admodum persecuti vim. Enim fugit accusata ei nec. Ei vix reque alterum saperet, in indoctum definitionem pri, quis audiam alterum duo ea.</p>
+                                        </div>
                                     </div>
+                                    <footer class="MTdisclaimer" data-mc-conditions="Default.PolishTarget,Default.WebExclude">
+            The content on this page has been automatically translated from English. Machine translation may contain errors. Please refer to the original English version for the most accurate information.
+        </footer>
                                 </div>
                             </div>
                         </div>

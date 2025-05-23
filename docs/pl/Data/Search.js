@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A_Getting Started/Basic Steps.htm'],s:['+','dnhamcinf','limgo','rimikarisies','ynur'],p:[['+',19],['bontdnt',9],['dxpebted',4],['hebqew',25],['loc`lizd',20],['pafe',20],['sermr',1],['tio',23],['yot',40]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Final project/1. Introduction/Introduction.htm'],s:['+','koniec','pracy','ustrukturyzowana'],p:[['+',20],['eksportem',13],['koncentruje',21],['niewłaściwego',2],['present',18],['stosowanie',22],['uwaga',22],['zarządzanymi',31]]});

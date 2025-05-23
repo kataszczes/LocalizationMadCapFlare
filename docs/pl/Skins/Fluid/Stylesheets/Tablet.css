@@ -58,7 +58,14 @@
 		background-repeat: no-repeat;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		background-color: #ffffff;
+		background: #ffffff;
+		background: -moz-linear-gradient(top, transparent 0%, #E0E7E9 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#E0E7E9));
+		background: -webkit-linear-gradient(top, transparent 0%, #E0E7E9 100%);
+		background: -o-linear-gradient(top, transparent 0%,#E0E7E9 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#E0E7E9 100%);
+		background: linear-gradient(transparent 0%,#E0E7E9 100%);
+		-pie-background: linear-gradient(transparent, #E0E7E9);
 	}
 
 	/* Topbar Menu Styles */
@@ -83,12 +90,11 @@
 
 	.title-bar-layout a.logo
 	{
+		background-position: center center;
 		top: 0;
 		margin: 0;
-		width: 287px;
-		height: 69px;
-		background: transparent url('Images/logo-purple.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/logo-purple.png') no-repeat center center;
+		background-repeat: no-repeat;
+		background: none;
 	}
 
 	.title-bar .menu-icon span
@@ -444,13 +450,13 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 69px;
+		min-height: 40px;
 		flex-basis: 100%;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 69px;
+		min-height: 40px;
 	}
 
 	.off-canvas-wrapper-inner .outer-row
@@ -1085,7 +1091,7 @@
 
 	.search-filter-content
 	{
-		top: 4em;
+		top: 2.5em;
 		background-color: #ffffff;
 	}
 

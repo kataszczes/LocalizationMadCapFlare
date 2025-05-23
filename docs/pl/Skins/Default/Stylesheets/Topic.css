@@ -432,22 +432,23 @@ a.glossaryTerm
 
 div.MCMiniTocBox_0
 {
+	padding-left: 2rem;
+	padding-top: 2rem;
+	margin-top: 0;
+	display: block;
+	line-height: 0.5rem;
+	font-size: 0.95rem;
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: black;
-	padding-top: 10px;
-	margin-top: 10px;
-	padding-left: 20px;
 }
 
 p.MiniTOC1_0
 {
-	font-size: 12.0pt;
-	margin-top: 0pt;
-	margin-bottom: 0pt;
-	display: block;
-	margin: 1.12em 0;
 	margin-left: 0pt;
+	margin-right: 0;
+	margin: 1.12rem 0;
+	display: block;
 	font-weight: bold;
 }
 
@@ -476,6 +477,7 @@ a.MiniTOC1:link
 	background-color: transparent;
 	background-image: none;
 	float: inherit;
+	font-size: inherit;
 	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
@@ -485,19 +487,16 @@ a.MiniTOC1:link
 	text-align: inherit;
 	mc-leader-format: '.';
 	color: black;
-	font-size: 12.0pt;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 p.MiniTOC2_0
 {
-	font-size: 12.0pt;
-	margin-top: 0pt;
-	margin-bottom: 0pt;
-	display: block;
-	margin: 1.12em 0;
 	margin-left: 10pt;
+	margin-right: 0;
+	margin: 1.12rem 0;
+	display: block;
 }
 
 a.MiniTOC2:link
@@ -525,6 +524,7 @@ a.MiniTOC2:link
 	background-color: transparent;
 	background-image: none;
 	float: inherit;
+	font-size: inherit;
 	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
@@ -534,18 +534,15 @@ a.MiniTOC2:link
 	text-align: inherit;
 	mc-leader-format: '.';
 	color: black;
-	font-size: 12.0pt;
 	text-decoration: none;
 }
 
 p.MiniTOC3_0
 {
-	font-size: 12.0pt;
-	margin-top: 0pt;
-	margin-bottom: 0pt;
-	display: block;
-	margin: 1.12em 0;
 	margin-left: 20pt;
+	margin-right: 0;
+	margin: 1.12rem 0;
+	display: block;
 }
 
 a.MiniTOC3:link
@@ -573,6 +570,7 @@ a.MiniTOC3:link
 	background-color: transparent;
 	background-image: none;
 	float: inherit;
+	font-size: inherit;
 	font-family: inherit;
 	font-style: inherit;
 	font-variant: inherit;
@@ -582,7 +580,6 @@ a.MiniTOC3:link
 	text-align: inherit;
 	mc-leader-format: '.';
 	color: black;
-	font-size: 12.0pt;
 	text-decoration: none;
 }
 
@@ -598,7 +595,7 @@ div.MCBreadcrumbsBox_0
 
 .xref
 {
-	color: blue;
+	color: #7AA8A4;
 	text-decoration: underline;
 }
 

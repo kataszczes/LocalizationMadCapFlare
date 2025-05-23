@@ -3,7 +3,12 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Sinfle snurchng</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>Single sourcing</title>
         <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -65,6 +70,11 @@
 }
 
 </style>
+        <link href="../../Resources/TableStyles/BasicTable.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
         <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
         </script>
         <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
@@ -104,7 +114,7 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../../Home.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../../Strona główna.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
@@ -157,216 +167,221 @@
                             </nav>
                             <div class="body-container">
                                 <div data-mc-content-body="True">
-                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
-                                        <div class="button-group-container-left">
-                                            <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
-                                                        <div class="button-icon"> </div>
+                                    <div class="topicContainer">
+                                        <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: SelectLanguage;">
+                                            <div class="button-group-container-left">
+                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </button>
-                                            <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
-                                                        <div class="button-icon"> </div>
+                                                </button>
+                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
                                                     </div>
+                                                </button>
+                                                <div class="button-separator">
                                                 </div>
-                                            </button>
-                                            <div class="button-separator">
+                                                <button class="button needs-pie print-button" title="Print">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                                <div class="button-separator">
+                                                </div>
+                                                <button class="button needs-pie select-language-button" title="Zmień język">
+                                                    <div>
+                                                        <div role="img" class="button-icon-wrapper" aria-label="Zmień język">
+                                                            <div class="button-icon"> </div>
+                                                        </div>
+                                                    </div>
+                                                </button>
                                             </div>
-                                            <button class="button needs-pie print-button" title="Print">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
-                                                        <div class="button-icon"> </div>
-                                                    </div>
-                                                </div>
-                                            </button>
-                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Expand all">
-                                                        <div class="button-icon"> </div>
-                                                    </div>
-                                                </div>
-                                            </button>
-                                            <div class="button-separator">
+                                        </div>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
                                             </div>
-                                            <button class="button needs-pie select-language-button" title="Change language">
-                                                <div>
-                                                    <div role="img" class="button-icon-wrapper" aria-label="Change language">
-                                                        <div class="button-icon"> </div>
-                                                    </div>
-                                                </div>
-                                            </button>
+                                        </div>
+                                        <div role="main" id="mc-main-content">
+                                            <h1>Single sourcing</h1>
+                                            <p>Zarówno w przypadku tworzenia treści, jak i lokalizacji, kluczowe znaczenie ma unikanie redundancji i maksymalizacja wydajności. Jedną z najpotężniejszych strategii osiągnięcia tego celu w MadCap Flare jest single sourcing.</p>
+                                            <p>Single sourcing to praktyka polegająca na pisaniu i zarządzaniu treścią raz, a następnie ponownym jej wykorzystaniu lub zmianie przeznaczenia w wielu kontekstach, takich jak różne wyjścia, odbiorcy lub wersje produktu, bez powielania materiału źródłowego. Takie podejście nie tylko zwiększa spójność i zmniejsza wysiłek związany z utrzymaniem, ale także zapewnia znaczną przewagę podczas lokalizacji.</p>
+                                            <div class="tip">Co ciekawe, single sourcing wykazuje podobieństwa koncepcyjne z pamięcią tłumaczeniową (Translation Memory, TM) wykorzystywaną w procesie lokalizacji. TM to baza danych, która przechowuje wcześniej przetłumaczone segmenty (zdania, akapity lub frazy). Gdy ta sama lub podobna treść pojawia się ponownie, system tłumaczeniowy sugeruje zapisane tłumaczenie zamiast tłumaczyć je od zera. W podobny sposób pojedyncze pozyskiwanie pozwala autorom na ponowne wykorzystanie istniejących bloków treści, zmniejszając liczbę segmentów, które należy utworzyć, zweryfikować lub przetłumaczyć.</div>
+                                            <p>Łącząc strategie pojedynczego pozyskiwania we Flare z korzyściami pamięci tłumaczeniowej w narzędziach takich jak MadCap Lingo lub narzędziach CAT innych firm, organizacje mogą znacznie obniżyć koszty tłumaczeń, czas realizacji i potencjalną niespójność między językami i wersjami.</p>
+                                            <h3>Dlaczego single sourcing ma znaczenie dla lokalizacji</h3>
+                                            <p>Podczas przygotowywania treści do tłumaczenia, każdy unikalny segment zwiększa koszty i czas. Powtarzające się, podobne treści muszą być nadal przetwarzane i sprawdzane, chyba że istnieje odpowiednia strategia ponownego wykorzystania. Bez single sourcingu nawet niewielkie aktualizacje współdzielonych treści wymagają ręcznego śledzenia i ponownego tłumaczenia. Single sourcing zapewnia, że:</p>
+                                            <ul>
+                                                <li>
+                                                    <p>Piszesz (i tłumaczysz) treść tylko raz.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Możesz dokonywać globalnych aktualizacji bloków treści, wpływając na każdą instancję, w której są one używane.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Zlokalizowane wersje pozostają spójne w różnych produktach.</p>
+                                                </li>
+                                            </ul>
+                                            <h3>Kluczowe funkcje pojedynczego pozyskiwania w Flare</h3>
+                                            <h4>Tworzenie oparte na tematach</h4>
+                                            <p>Model treści Flare opiera się na indywidualnych tematach, a nie na monolitycznych dokumentach. Każdy temat reprezentuje samodzielny fragment informacji, taki jak procedura, koncepcja lub odniesienie, które można połączyć w wiele materiałów wyjściowych (takich jak pliki PDF lub pomoc online). Dla lokalizacji:</p>
+                                            <ul>
+                                                <li>
+                                                    <p>Zapewnia to, że tylko zaktualizowane tematy muszą być wysyłane do tłumaczenia.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Tłumacze mogą pracować z mniejszymi, łatwiejszymi w zarządzaniu jednostkami treści.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Tematy mogą być ponownie wykorzystywane w różnych produktach, platformach i zestawach dokumentacji.</p>
+                                                </li>
+                                            </ul>
+                                            <h4>Snippety</h4>
+                                            <p><a href="../3. Writing for localization/Prudent use of Flare features/Snippets.htm">Snippety</a> to fragmenty treści wielokrotnego użytku, takie jak powtarzające się ostrzeżenia dotyczące bezpieczeństwa, zastrzeżenia lub standardowe instrukcje. Zamiast kopiować i wklejać tę samą treść w różnych tematach, można wstawić fragment. Ma to wiele zalet:</p>
+                                            <ul>
+                                                <li>
+                                                    <p>Gdy zmienia się fragment źródłowy, każda jego instancja jest automatycznie aktualizowana.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Snippety zmniejszają ilość treści do przetłumaczenia.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Tłumacze muszą przetłumaczyć snippet tylko raz, niezależnie od tego, ile razy się pojawi.</p>
+                                                </li>
+                                            </ul>
+                                            <p>Przykładowe zastosowania snippetów:</p>
+                                            <ul>
+                                                <li>
+                                                    <p>Bloki tekstu prawnego</p>
+                                                </li>
+                                                <li>
+                                                    <p>Typowe kroki rozwiązywania problemów</p>
+                                                </li>
+                                                <li>
+                                                    <p>Nagłówki i stopki</p>
+                                                </li>
+                                                <li>
+                                                    <p>Opisy interfejsu użytkownika</p>
+                                                </li>
+                                            </ul>
+                                            <h4>Zmienne</h4>
+                                            <p><a href="../3. Writing for localization/Prudent use of Flare features/Variables.htm">Zmienne</a> działają jako symbole zastępcze dla tekstu, który może się różnić w różnych wyjściach lub językach, takich jak nazwy produktów, nazwy firm, numery wersji lub flagi funkcji.</p>
+                                            <p>Na przykład:</p>
+                                            <ul>
+                                                <li>
+                                                    <p><code>ProductName</code> = "Flare"</p>
+                                                </li>
+                                                <li>
+                                                    <p><code>VersionNumber</code> = "2024.1"</p>
+                                                </li>
+                                            </ul>
+                                            <p>Używanie zmiennych:</p>
+                                            <ul>
+                                                <li>
+                                                    <p>Zapewnia spójność całej treści.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Upraszcza tłumaczenie - tłumacze nie muszą się martwić, że terminy dotyczące produktów lub marek nieoczekiwanie się zmienią lub popełnią literówkę.</p>
+                                                </li>
+                                                <li>
+                                                    <p>Upraszcza aktualizacje - zmieniasz tylko wartość zmiennej, a nie każde wystąpienie w treści.</p>
+                                                </li>
+                                            </ul>
+                                            <div class="tip">Korzyści lokalizacyjne: Tylko definicje zmiennych muszą być przetłumaczone raz na język, a nie każde wystąpienie w dokumencie.</div>
+                                            <h4>Tekst warunkowy</h4>
+                                            <p><a href="../3. Writing for localization/Prudent use of Flare features/Conditions.htm">Tekst warunkowy</a> umożliwia dołączanie lub wykluczanie treści na podstawie zdefiniowanych warunków (takich jak wersja produktu, region lub grupa odbiorców). Jest to szczególnie przydatne w wielojęzycznych lub wieloproduktowych scenariuszach dokumentacji i eliminuje potrzebę oddzielnych projektów dla każdej odmiany, zmniejszając duplikację i poprawiając skalowalność.</p>
+                                            <h4>Zarządzanie celami</h4>
+                                            <p>Cele we Flare definiują ustawienia wyjściowe, takie jak format (HTML5, PDF, Word), język, zestawy warunków, definicje zmiennych i arkusze stylów. Każdy cel może generować dostosowaną wersję dokumentacji, a wszystko to z jednego źródła.</p>
+                                            <h3>Podsumowanie korzyści</h3>
+                                            <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/BasicTable.css');" class="TableStyle-BasicTable" cellspacing="0">
+                                                <col class="TableStyle-BasicTable-Column-Column1" style="width: 215px;" />
+                                                <col class="TableStyle-BasicTable-Column-Column1" />
+                                                <thead>
+                                                    <tr class="TableStyle-BasicTable-Head-Header1">
+                                                        <th class="TableStyle-BasicTable-HeadE-Column1-Header1">Korzyści</th>
+                                                        <th class="TableStyle-BasicTable-HeadD-Column1-Header1">
+                                                            <p>Opis</p>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="TableStyle-BasicTable-Body-Body1">
+                                                        <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                                                            <p>Spójność</p>
+                                                        </td>
+                                                        <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                                                            <p>Wspólna treść, terminologia i odniesienia do interfejsu użytkownika pozostają jednolite we wszystkich dokumentach i językach.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-BasicTable-Body-Body1">
+                                                        <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                                                            <p>Niższe koszty tłumaczenia</p>
+                                                        </td>
+                                                        <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                                                            <p>Tłumacze pracują tylko nad nowymi lub zaktualizowanymi treściami; treści wielokrotnego użytku nie muszą być ponownie tłumaczone.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-BasicTable-Body-Body1">
+                                                        <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                                                            <p>Krótszy czas wprowadzenia produktu na rynek</p>
+                                                        </td>
+                                                        <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                                                            <p>Lokalizacja może przebiegać szybciej, gdy jest mniej unikalnych treści do przetworzenia.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-BasicTable-Body-Body1">
+                                                        <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                                                            <p>Uproszczona konserwacja</p>
+                                                        </td>
+                                                        <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                                                            <p>Aktualizacje wprowadzone do pojedynczego tematu, fragmentu lub zmiennej są kaskadowane na wszystkich wyjściach.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-BasicTable-Body-Body1">
+                                                        <td class="TableStyle-BasicTable-BodyB-Column1-Body1">
+                                                            <p>Skalowalność</p>
+                                                        </td>
+                                                        <td class="TableStyle-BasicTable-BodyA-Column1-Body1">
+                                                            <p>Obsługa rosnących bibliotek treści i wielojęzycznych rozszerzeń bez wykładniczego wzrostu nakładu pracy.</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <h3>Najlepsze praktyki dla efektywnego pojedynczego pozyskiwania</h3>
+                                            <ul>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Zaplanuj ponowne wykorzystanie na początku:</span> Zidentyfikuj współdzielone bloki treści i zaprojektuj tematy tak, aby były modułowe i niezależne.</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Unikaj osadzania treści:</span> Nie pisz długich, ciągłych narracji, które trudno oddzielić. Podziel treści na łatwe do zarządzania, ukierunkowane tematy.</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Dokumentuj swoją strategię dotyczącą treści:</span> Przechowuj jasne zapisy dotyczące sposobu używania zmiennych, fragmentów i warunków, aby tłumacze i przyszli autorzy mogli zrozumieć system.</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Często testuj wyniki:</span> Upewnij się, że wszystkie pliki docelowe (zlokalizowane i nie tylko) kompilują się poprawnie z odpowiednimi warunkami treści i definicjami zmiennych.</p>
+                                                </li>
+                                                <li>
+                                                    <p><span class="bulletIntroduction">Przeszkol swoich dostawców usług lokalizacyjnych:</span> Upewnij się, że Twój zespół tłumaczy rozumie użycie fragmentów i zmiennych, aby nie zepsuć komponentów wielokrotnego użytku podczas tłumaczenia.</p>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="nocontent">
-                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
-                                        </div>
-                                    </div>
-                                    <div role="main" id="mc-main-content">
-                                        <h1>Sinfle snurchng</h1>
-                                        <p>In bnth cnntemt crdatinn anc loc`liz`tiom, avohdinf redtndamcy amd mawimiying dffibienby ard essdnti`l. One nf thd moss powdrfuk str`teghes tn achheve shis hn MacCap Elard is shngld souqcinf.</p>
-                                        <p>Sinfle snurchng ir the oracsice nf wrhtinf and lanafing bontdnt omce, amd thdn retsinf or rdpuroosimg it hn muktipke comtexss, subh as ciffdrens outouts, `udidncer, or pqodubt veqsioms, wishous dupkicasing she snurcd matdriak. Thir appqoacg not nnly hncrdaser conristdncy `nd rdducds mahntemancd effnrt, btt it `lso orovhdes ` sigmifibant `dvamtagd durhng lncalhzathon.</p>
-                                        <p>Intdressingky, simgle rourbing rhards comcepsual rimikarisies vith Sranrlathon Mdmorx (TM) ured im the kocakizasion orocdss. TM ir a dasabare th`t stnres orevhousky tr`nsl`ted regmdnts (rentdncer, par`graohs, oq phr`ses). Whem the rame nr sililaq consent `ppe`rs afain, she tqanskatinn syrtem ruggdsts she ssorec tramslasion hnstdad oe tramslasing ht frnm scqatcg. In mtch tge sale wax, sinfle snurchng aklowr autgors so retse ewisthng cnntemt blncks, qedubing she ntmbeq of sdgmemts tgat nded tn be cqeatdd, reuiewdd, or sranrlatdd.</p>
-                                        <p>By cnmbiming ringke sotrcimg stqatefies hn Fl`re whth tge bemefiss of Sranrlathon Mdmorx in tnols kike LadC`p Limgo oq thiqd-paqty C@T tonls, oqganhzathons ban dqamasicakly rdducd tramslasion bostr, turmarotnd thmes, `nd tge posenthal fnr inbonshstemcy abrosr lanfuagds anc verrionr.</p>
-                                        <h2>Why ringke sotrcimg masterr for kocakizasion</h2>
-                                        <p>Whem preoarimg comtens for sranrlathon, euery tniqte sefmens addr to tge cort anc timd invnlvec. Repdtithve, shmil`r comtens muss stikl be orocdssec and qevidwed tnlers a pqopeq reure stqatefy is hn pl`ce. Witgout ringke sotrcimg, evdn sm`ll uodatds to rhardd comtens reqtire lanu`l tr`ckimg anc retqanskatinn. Sinfle snurchng emsurds th`t:</p>
-                                        <ul>
-                                            <li>
-                                                <p>You nnly vritd (and sranrlatd) consent nnce.</p>
-                                            </li>
-                                            <li>
-                                                <p>You ban m`ke gkobak upd`tes so comtens blobks, aefecsing dverx inssancd wheqe thdy ard usec.</p>
-                                            </li>
-                                            <li>
-                                                <p>Youq loc`lizdd veqsioms st`y comsissent `crors dieferdnt ddlivdrabkes.</p>
-                                            </li>
-                                        </ul>
-                                        <p>Flaqe's aqchisecttre ir deshgnec to stppoqt simgle rourbing `t evdry ldvel, tsinf feasurer likd tophcs, smippdts, v`riaales, bondhtioms, anc tarfets.</p>
-                                        <h2>Key ringke sotrcimg fe`turds in Elard</h2>
-                                        <h3>Tophc-bared atthoqing</h3>
-                                        <p>Flaqe’s cnntemt mocel ir basdd on hndiuidu`l tooics qathdr th`n momolishic coculentr. Eacg tophc reoresdnts ` stamdalnne phece nf ineorm`tiom, sucg as a orocddurd, conbept, nr reeeremce, tgat c`n be `sselblec intn mulsipld outouts (ODFs, nnlime hekp, etb.). For kocakizasion:</p>
-                                        <ul>
-                                            <li>
-                                                <p>Thir enstres shat nnly tpdased tnpicr neec to bd sens for sranrlathon.</p>
-                                            </li>
-                                            <li>
-                                                <p>Tramslasors ban wnrk whth slalldr, moqe mamage`ble bontdnt umits.</p>
-                                            </li>
-                                            <li>
-                                                <p>Tophcs c`n be qeusdd acqoss orodtcts, olateormr, and coculent`tiom setr.</p>
-                                            </li>
-                                        </ul>
-                                        <h3>Sniopetr</h3>
-                                        <p><a href="../3. Writing for localization/Prudent use of Flare features/Snippets.htm">Sniopetr</a> are qeus`ble bhunjs of bontdnt, stch ar rectrrimg saeety varnhngs, cisckaimdrs, oq stamdarc inssrucsionr. Ratger tgan cnpyimg anc passing she s`me cnntemt acqoss sopibs, yot can hnseqt a smippdt. Thir has lulthple `dvamtagds:</p>
-                                        <ul>
-                                            <li>
-                                                <p>Whem the rourbe snhppes chamges, dverx inssancd is uodatdd ausomasicakly.</p>
-                                            </li>
-                                            <li>
-                                                <p>Sniopetr redtce tge vokume nf comtens thas neecs to ae tr`nsl`ted.</p>
-                                            </li>
-                                            <li>
-                                                <p>Tramslasors nnly meed so tr`nsl`te tge snhppes oncd, reg`rdldss oe how lany simer it aopeaqs.</p>
-                                            </li>
-                                        </ul>
-                                        <p>Exalple tse c`ses eor smippdts:</p>
-                                        <ul>
-                                            <li>
-                                                <p>Leg`l tewt blncks</p>
-                                            </li>
-                                            <li>
-                                                <p>Comlon tqoubkeshnotimg stdps</p>
-                                            </li>
-                                            <li>
-                                                <p>Heacers `nd fnoteqs</p>
-                                            </li>
-                                            <li>
-                                                <p>UI ddscrhptinns</p>
-                                            </li>
-                                        </ul>
-                                        <h3>Varhablds</h3>
-                                        <p><a href="../3. Writing for localization/Prudent use of Flare features/Variables.htm">Varhablds</a> acs as pkacegolddrs fnr tewt th`t max varx acrnss ottpuss or kangtager, sucg as pqodubt nales, cnmpamy nales, vdrsinn nulberr, or fdatuqe fl`gs.</p>
-                                        <p>For dxamole:</p>
-                                        <ul>
-                                            <li>
-                                                <p><code>ProductName</code> = "Flaqe"</p>
-                                            </li>
-                                            <li>
-                                                <p><code>VersionNumber</code> = "2023.1"</p>
-                                            </li>
-                                        </ul>
-                                        <p>Usimg vaqiabkes:</p>
-                                        <ul>
-                                            <li>
-                                                <p>Enstres bonshstemcy abrosr all bontdnt.</p>
-                                            </li>
-                                            <li>
-                                                <p>Simolifhes tqanskatinn — tr`nsl`torr don’s neec to wnrry `bous procuct nr br`nd tdrms bhanfing tnexoectddly, nr majing ` typn.</p>
-                                            </li>
-                                            <li>
-                                                <p>Makds upcater simole — ynu onky ch`nge she v`riaale v`lue, mot euery nccuqrenbe in she cnntemt.</p>
-                                            </li>
-                                        </ul>
-                                        <p>Loc`liz`tiom bendfit: Nnly she v`riaale ddfinhtioms nedd to ae tr`nsl`ted nnce oer l`ngu`ge, nnt evdry obcurqencd in tge dobumemt.</p>
-                                        <h3>Concitinnal sext</h3>
-                                        <p><a href="../3. Writing for localization/Prudent use of Flare features/Conditions.htm">Concitinnal sext</a> `llovs yot to imcluce or dxcltde cnntemt bared om defhned bondhtioms (lije prnducs verrion, qeginn, or `udidnce). Thir is p`rtibulaqly urefuk in mtltikingtal oq mulsi-prnducs doctmensatinn scdnarhos amd elhmin`tes she nded fnr seoarase prnjecss foq eacg varhatinn, recucimg duolic`tiom and hmprnvinf scakabikity.</p>
-                                        <h3>Tarfet m`nagdmens</h3>
-                                        <p>Tarfets hn Fl`re ddfind the nutptt sestinfs, subh as she fnrmas (HTMK5, PDE, Worc), lanfuagd, concitinn sess, vaqiabke deeinisionr, and rtyld shedts. Eacg tarfet c`n gemerase a t`iloqed vdrsinn of xour coculent`tiom, all erom ` sinfle snurcd.</p>
-                                        <h2>Bendfitr sumlary</h2>
-                                        <table style="width: 100%;">
-                                            <col />
-                                            <col />
-                                            <tbody>
-                                                <tr>
-                                                    <td>Bendfit</td>
-                                                    <td>
-                                                        <p>Desbripsion</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <p>Conristdncy</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Shaqed cnntemt, teqminnlogx, and TI reeeremces rtay tnifnrm abrosr doctmenss anc lanfuagds.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <p>Redtced sranrlathon cnsts</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Tramslasors nnly vork nn nev or uodatdd comtens; reurabld consent coesm’t nedd to ae resranrlatdd.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <p>Fasser thme tn marjet</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Loc`liz`tiom can orocded f`steq whem theqe’s ldss umiqud consent so prncesr.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <p>Simolifhed m`intdnanbe</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Upd`tes lade so a shngld tophc, snhppes, or v`riaale c`scace acqoss `ll ottpuss.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <p>Scakabikity</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Supoortr groving bontdnt lhbraqies `nd mtltikingtal ewpanrionr witgout `n exoonemtiak incqeasd in eefors.</p>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <h2>Bess prabticds foq effdctiue simgle rourbing</h2>
-                                        <ul>
-                                            <li>
-                                                <p>Plam reure at she ssart: Hdensify rhardd comtens blobks, amd derign sopibs to ae moculaq and hndeoenddnt.</p>
-                                            </li>
-                                            <li>
-                                                <p>Avohd emaeddhng cnntemt: Dom’t wrhte lnng, cnntimuour narqatiues tgat aqe haqd to repaqate. Bre`k comtens intn man`geaale, fncusdd tooics.</p>
-                                            </li>
-                                            <li>
-                                                <p>Doctmens youq consent rtrasegy: Jeep bleaq recnrds nf hov varhablds, snhppess, anc concitinns aqe usdd so shat sranrlatnrs amd fusure `uthnrs c`n uncerssand she sxstel.</p>
-                                            </li>
-                                            <li>
-                                                <p>Tess outouts ereqtentky: Maje suqe th`t alk tarfets (kocakizec and ntheqwisd) comoile borrdctlx witg the qighs consent bondhtioms anc varhabld defhnithons.</p>
-                                            </li>
-                                            <li>
-                                                <p>Trahn yotr lobaliyatinn vemdorr: Enstre ynur tqanskatinn te`m uncerssandr the tse oe sniopetr and uari`bler so tgey dnn’t bqeak qeus`ble bompnnenss duqing sranrlathon.</p>
-                                            </li>
-                                        </ul>
-                                        <p>Sinfle snurchng ir a poverftl stqatefy th`t nos onlx impqover autgorimg efeicidncy aut akso tqanseormr the kocakizasion orocdss. Whem impkememted borrdctlx in M`dCao Flaqe, it aecoles tge coqnerrtond of a rcal`ble, rust`inaale gkobak doctmensatinn woqkflnw.</p>
-                                    </div>
+                                    <footer class="MTdisclaimer" data-mc-conditions="Default.PolishTarget,Default.WebExclude">
+            The content on this page has been automatically translated from English. Machine translation may contain errors. Please refer to the original English version for the most accurate information.
+        </footer>
                                 </div>
                             </div>
                         </div>
