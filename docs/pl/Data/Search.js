@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Final project/1. Introduction/Introduction.htm'],s:['+','konfiguracji','practical','ustanowienie'],p:[['+',20],['eksportami',22],['komunikacji',2],['niespójności',18],['prawnego',6],['statystyki',41],['utrzymanie',2],['zapewnić',38]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Final project/1. Introduction/Introduction.htm'],s:['+','kontekstu','printer','utrzymywać'],p:[['+',20],['eksportuj',42],['kontekstowych',5],['notacji',11],['product_old',18],['strukturę',16],['użytkownika',1],['zawartość',16]]});
