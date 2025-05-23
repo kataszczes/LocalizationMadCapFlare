@@ -7,7 +7,8 @@
   ShowMadCapBacklink="true"
   MasterToc="/Project/TOCs/PDF.fltoc"
   MasterPageLayout="/Content/Resources/PageLayouts/PDF-layout.flpgl"
-  MasterStylesheet="/Content/Resources/Stylesheets/PDFStyles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/PDFStyles.css"
+  ConditionTagExpression="exclude[Default.ScreenOnly]">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

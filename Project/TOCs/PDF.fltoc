@@ -22,7 +22,7 @@
       StartSection="false" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Final project/1. Introduction/MadCap products.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Link="/Content/Final project/1. Introduction/MadCap Software products.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="none"
       PageNumberReset="continue"
       StartSection="false" />
@@ -227,7 +227,7 @@
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/Final project/5. Generate projects for translation/Generate projects for translatioin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Link="/Content/Final project/5. Generate projects for translation/Generate projects for translation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     PageNumberReset="continue">
     <TocEntry
