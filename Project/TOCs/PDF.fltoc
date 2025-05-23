@@ -238,16 +238,20 @@
       StartSection="false"></TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Final project/5. Generate projects for translation/Exporting Flare Project.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="none"
-      PageNumberReset="continue"
-      StartSection="false" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Final project/5. Generate projects for translation/Creating Lingo Project.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="none"
-      PageNumberReset="continue"
-      StartSection="false" />
+      Link="/Content/Final project/5. Generate projects for translation/Exporting with Lingo—preparation steps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Final project/5. Generate projects for translation/Exporting Flare Project.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="none"
+        PageNumberReset="continue"
+        StartSection="false" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Final project/5. Generate projects for translation/Creating Lingo Project.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="none"
+        PageNumberReset="continue"
+        StartSection="false" />
+    </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Final project/5. Generate projects for translation/Exporting XLIFF files.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
