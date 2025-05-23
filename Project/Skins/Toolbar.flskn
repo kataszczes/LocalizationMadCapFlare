@@ -59,7 +59,7 @@
   </Stylesheet>
   <TopicToolbar
     EnableCustomLayout="true"
-    Buttons="PreviousTopic|NextTopic|Separator|Print|ExpandAll|Separator|SelectLanguage" />
+    Buttons="PreviousTopic|NextTopic|Separator|Print|Separator|SelectLanguage" />
   <Strings>
     <Stylesheet
       lang="pl">
